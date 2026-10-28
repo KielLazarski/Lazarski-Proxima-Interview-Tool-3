@@ -1,0 +1,26 @@
+{
+  "id": "5FQD",
+  "kind": "ternary",
+  "title": "CRBN with lenalidomide, recruiting CK1\u03b1",
+  "shows": "The same ligase and the same chemistry recruiting an entirely different protein. That is the premise of molecular glue in one pair of files, and it is worth opening beside 6H0F: the presented face is nearly identical, 74.8 against 72.6 square angstroms, and what arrives to sit on it is not.",
+  "entry": "5FQD",
+  "ligand": "LVY",
+  "anchor_chain": "B",
+  "partner_chain": "C",
+  "anchor_name": "PROTEIN CEREBLON",
+  "partner_name": "CASEIN KINASE I ISOFORM ALPHA",
+  "anchor_residues": 381,
+  "partner_residues": 294,
+  "ligand_heavy_atoms": 19,
+  "presented_area": 74.8,
+  "buried_fraction": 0.824,
+  "directionality": 0.877,
+  "face_burial_by_partner": 0.852,
+  "cavity_volume": 284.7,
+  "cavity_points": 556,
+  "verdict": "pass",
+  "files": {
+    "A": "complex.pdb",
+    "B": null
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "6H0F",
+  "kind": "ternary",
+  "title": "CRBN with lenalidomide, recruiting IKZF1",
+  "shows": "The cleanest case in the set. The molecule sits deep in cereblon's pocket and presents a small, strongly directional face, and the zinc finger covers almost all of it -- 94% of the presented face buried, the highest of the fourteen. It is also the only system where the built-in docking engine recovered the crystal placement, so it is the one example where every stage of the tool can be run end to end.",
+  "entry": "6H0F",
+  "ligand": "Y70",
+  "anchor_chain": "B",
+  "partner_chain": "C",
+  "anchor_name": "Protein cereblon",
+  "partner_name": "DNA-binding protein Ikaros",
+  "anchor_residues": 374,
+  "partner_residues": 32,
+  "ligand_heavy_atoms": 20,
+  "presented_area": 72.6,
+  "buried_fraction": 0.829,
+  "directionality": 0.864,
+  "face_burial_by_partner": 0.94,
+  "cavity_volume": 139.8,
+  "cavity_points": 273,
+  "verdict": "pass",
+  "files": {
+    "A": "complex.pdb",
+    "B": null
+  }
+}

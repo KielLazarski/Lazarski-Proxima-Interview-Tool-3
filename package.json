@@ -1,0 +1,13 @@
+{
+  "name": "glueforge",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Anchor-first, frustration-guided molecular glue discovery: sidecar pipeline plus a self-contained dashboard.",
+  "scripts": {
+    "build": "node build.js",
+    "check": "node check.js",
+    "test": "node tests/crossval.test.js && node tests/render.test.js"
+  },
+  "author": "K. Lazarski <lazarski@gmail.com>",
+  "license": "UNLICENSED"
+}

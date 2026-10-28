@@ -1,0 +1,26 @@
+{
+  "id": "6UD7",
+  "kind": "ternary",
+  "title": "DCAF15 with E7820, recruiting RBM39",
+  "shows": "The largest cavity in the benchmark at 1274 cubic angstroms, which makes it the clearest illustration of what the cavity view is for -- that is the space chemistry would have to fill. One caveat is visible in its own numbers: the face has a directionality of 0.34, barely above the threshold where the tool stops trusting the approach direction at all.",
+  "entry": "6UD7",
+  "ligand": "EF6",
+  "anchor_chain": "A",
+  "partner_chain": "C",
+  "anchor_name": "DDB1- and CUL4-associated factor 15",
+  "partner_name": "RNA-binding motif protein 39",
+  "anchor_residues": 426,
+  "partner_residues": 81,
+  "ligand_heavy_atoms": 24,
+  "presented_area": 168.9,
+  "buried_fraction": 0.68,
+  "directionality": 0.343,
+  "face_burial_by_partner": 0.607,
+  "cavity_volume": 1274.4,
+  "cavity_points": 2489,
+  "verdict": "pass",
+  "files": {
+    "A": "complex.pdb",
+    "B": null
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "note": "Module load order. Every module shares one namespace at runtime and they run top to bottom, so this order matters. check.js verifies the files listed here all exist.",
+  "styles": [
+    "styles/app.css"
+  ],
+  "modules": [
+    "js/00-core.js",
+    "js/01-help.js",
+    "js/02-api.js",
+    "js/03-frustration.js",
+    "js/04-viewer.js",
+    "js/05-pages.js",
+    "js/06-cavity.js",
+    "js/07-landing.js",
+    "js/08-upload.js",
+    "js/09-assess.js",
+    "js/10-dock.js",
+    "js/11-calibration.js",
+    "js/12-chemistry.js",
+    "js/13-viewpanel.js",
+    "js/50-startup.js"
+  ]
+}

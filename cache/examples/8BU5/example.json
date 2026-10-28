@@ -1,0 +1,26 @@
+{
+  "id": "8BU5",
+  "kind": "ternary",
+  "title": "CDK12\u2013cyclin K glued to DDB1",
+  "shows": "A glue with no ligase pocket involved at all: the molecule binds CDK12 and DDB1 is recruited straight onto it. Useful as a check that the gate is measuring interfaces rather than having learned to recognise cereblon, since nothing about this system resembles the first two.",
+  "entry": "8BU5",
+  "ligand": "RMF",
+  "anchor_chain": "H",
+  "partner_chain": "G",
+  "anchor_name": "Cyclin-dependent kinase 12",
+  "partner_name": "DNA damage-binding protein 1",
+  "anchor_residues": 331,
+  "partner_residues": 826,
+  "ligand_heavy_atoms": 34,
+  "presented_area": 140.7,
+  "buried_fraction": 0.786,
+  "directionality": 0.85,
+  "face_burial_by_partner": 0.821,
+  "cavity_volume": 613.9,
+  "cavity_points": 1199,
+  "verdict": "pass",
+  "files": {
+    "A": "complex.pdb",
+    "B": null
+  }
+}

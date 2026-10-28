@@ -1,0 +1,244 @@
+{
+  "source": "cache/raw/6TD3.cif",
+  "entry": "6TD3",
+  "generated": "2026-10-27T15:03:50Z",
+  "potential": "awsem-2015",
+  "potential_published": true,
+  "assignment": {
+    "entry": "6TD3",
+    "ligand": "RC8",
+    "ligand_chain": "B",
+    "ligand_seq": 1101,
+    "ligand_heavy_atoms": 32,
+    "anchor_chain": "A",
+    "anchor_name": "DNA damage-binding protein 1",
+    "partner_chain": "I",
+    "partner_name": "Cyclin-K",
+    "anchor_ligand_contacts": 51,
+    "partner_ligand_contacts": 0,
+    "anchor_share": 1.0,
+    "other_contacting_chains": {
+      "B": 142
+    }
+  },
+  "chains_in_file": {
+    "A": 826,
+    "B": 333,
+    "C": 248,
+    "D": 827,
+    "E": 333,
+    "F": 248,
+    "G": 826,
+    "H": 333,
+    "I": 248
+  },
+  "ligands_in_file": [
+    "RC8"
+  ],
+  "frustration": {
+    "contacts_total": 7094,
+    "contacts_interface": 79,
+    "contacts_proximal": 0,
+    "contacts_distal": 79,
+    "comparison": {
+      "n_proximal": 0,
+      "n_distal": 79,
+      "mean_proximal": NaN,
+      "mean_distal": -0.3547,
+      "median_proximal": NaN,
+      "median_distal": -0.1593,
+      "difference": NaN,
+      "rank_biserial": NaN,
+      "cohens_d": NaN,
+      "p_value": NaN,
+      "test": "insufficient data"
+    },
+    "stratified": {
+      "bands": [
+        {
+          "band": 1,
+          "covariate_range": [
+            0.025,
+            2.83
+          ],
+          "n_proximal": 0,
+          "n_distal": 20
+        },
+        {
+          "band": 2,
+          "covariate_range": [
+            2.83,
+            4.251
+          ],
+          "n_proximal": 0,
+          "n_distal": 19
+        },
+        {
+          "band": 3,
+          "covariate_range": [
+            4.251,
+            4.865
+          ],
+          "n_proximal": 0,
+          "n_distal": 20
+        },
+        {
+          "band": 4,
+          "covariate_range": [
+            4.865,
+            6.756
+          ],
+          "n_proximal": 0,
+          "n_distal": 20
+        }
+      ],
+      "pooled_difference": null,
+      "note": "Difference in mean frustration, proximal minus distal, computed inside density bands and pooled by band size. Controls for a glue sitting in the interface core."
+    },
+    "gradient": {
+      "n": 79,
+      "spearman_rho": 0.1165,
+      "p_value": 0.3065,
+      "sweep": {
+        "4.0": null,
+        "5.0": null,
+        "6.0": null,
+        "8.0": null,
+        "10.0": null
+      },
+      "sweep_all_same_sign": false,
+      "note": "rho is the rank correlation between a contact's frustration and its distance to the ligand, over interface contacts only. Positive means frustration rises toward the ligand, with no threshold involved. The sweep repeats the group difference at several cut-offs."
+    }
+  },
+  "cavity": {
+    "points": 77,
+    "volume": 39.4,
+    "spacing": 0.8,
+    "mean_enclosure": 1.94,
+    "enclosure_quality": 0.013,
+    "composite_fraction": 0.0,
+    "mean_electrostatic": -1.328,
+    "electrostatic_range": [
+      -5.75,
+      4.27
+    ],
+    "mean_hydrophobic": 2.14,
+    "donor_rich_fraction": 0.312,
+    "acceptor_rich_fraction": 0.039,
+    "ligand_recovered": 0.094,
+    "anchor_lined_share": 1.0
+  },
+  "presented_face": {
+    "sasa_binary": 149.5,
+    "sasa_ternary": 149.5,
+    "buried_by_partner": 0.0,
+    "growth_points": 22,
+    "top_vectors": [
+      {
+        "atom_index": 0,
+        "atom_name": "C2",
+        "element": "C",
+        "position": [
+          -61.079,
+          23.515,
+          -5.651
+        ],
+        "direction": [
+          -0.2961,
+          -0.2621,
+          0.9185
+        ],
+        "sasa": 6.29,
+        "relative_sasa": 0.667,
+        "n_reachable": 0,
+        "reachable": [],
+        "addressable": 0.0,
+        "mean_reach_distance": null
+      },
+      {
+        "atom_index": 1,
+        "atom_name": "C4",
+        "element": "C",
+        "position": [
+          -62.406,
+          23.898,
+          -7.597
+        ],
+        "direction": [
+          0.9268,
+          0.3186,
+          -0.1991
+        ],
+        "sasa": 2.52,
+        "relative_sasa": 0.5,
+        "n_reachable": 0,
+        "reachable": [],
+        "addressable": 0.0,
+        "mean_reach_distance": null
+      },
+      {
+        "atom_index": 2,
+        "atom_name": "C5",
+        "element": "C",
+        "position": [
+          -63.489,
+          23.471,
+          -6.922
+        ],
+        "direction": [
+          -0.6793,
+          -0.3736,
+          0.6317
+        ],
+        "sasa": 6.29,
+        "relative_sasa": 1.0,
+        "n_reachable": 0,
+        "reachable": [],
+        "addressable": 0.0,
+        "mean_reach_distance": null
+      },
+      {
+        "atom_index": 3,
+        "atom_name": "C6",
+        "element": "C",
+        "position": [
+          -63.321,
+          23.079,
+          -5.585
+        ],
+        "direction": [
+          0.7555,
+          0.0973,
+          0.6479
+        ],
+        "sasa": 6.29,
+        "relative_sasa": 1.0,
+        "n_reachable": 0,
+        "reachable": [],
+        "addressable": 0.0,
+        "mean_reach_distance": null
+      },
+      {
+        "atom_index": 4,
+        "atom_name": "C8",
+        "element": "C",
+        "position": [
+          -64.104,
+          24.02,
+          -8.949
+        ],
+        "direction": [
+          -0.5622,
+          0.1749,
+          -0.8083
+        ],
+        "sasa": 17.61,
+        "relative_sasa": 0.491,
+        "n_reachable": 0,
+        "reachable": [],
+        "addressable": 0.0,
+        "mean_reach_distance": null
+      }
+    ]
+  }
+}

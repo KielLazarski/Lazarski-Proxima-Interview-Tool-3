@@ -1,0 +1,66 @@
+{
+  "spacing": 1.4,
+  "n_decoys": 60,
+  "systems": [
+    {
+      "entry": "6H0F",
+      "ligand": "Y70",
+      "partner_atoms": 244,
+      "buried_fraction": 0.829,
+      "native": 72.0,
+      "decoy_best": 37.0,
+      "decoy_median": 3.0,
+      "decoys_at_or_above_native": 0,
+      "n_decoys": 60,
+      "recognised": true
+    },
+    {
+      "entry": "6Q0R",
+      "ligand": "O6M",
+      "partner_atoms": 612,
+      "buried_fraction": 0.3967,
+      "native": 65.0,
+      "decoy_best": 30.0,
+      "decoy_median": 7.0,
+      "decoys_at_or_above_native": 0,
+      "n_decoys": 60,
+      "recognised": true
+    },
+    {
+      "entry": "6Q0W",
+      "ligand": "EF6",
+      "partner_atoms": 616,
+      "buried_fraction": 0.3609,
+      "native": 34.0,
+      "decoy_best": 27.0,
+      "decoy_median": 4.5,
+      "decoys_at_or_above_native": 0,
+      "n_decoys": 60,
+      "recognised": true
+    },
+    {
+      "entry": "6Q0V",
+      "ligand": "P7M",
+      "partner_atoms": 619,
+      "buried_fraction": 0.4187,
+      "native": 26.0,
+      "decoy_best": 30.0,
+      "decoy_median": 4.0,
+      "decoys_at_or_above_native": 3,
+      "n_decoys": 60,
+      "recognised": false
+    },
+    {
+      "entry": "6UD7",
+      "ligand": "EF6",
+      "partner_atoms": 626,
+      "buried_fraction": 0.6798,
+      "native": 109.0,
+      "decoy_best": 26.0,
+      "decoy_median": 5.0,
+      "decoys_at_or_above_native": 0,
+      "n_decoys": 60,
+      "recognised": true
+    }
+  ]
+}

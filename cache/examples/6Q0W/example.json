@@ -1,0 +1,26 @@
+{
+  "id": "6Q0W",
+  "kind": "ternary",
+  "title": "DCAF15 with indisulam, recruiting RBM39 \u2014 the hard case",
+  "shows": "The same two proteins as 6UD7 with a different ligand, and a different verdict: borderline rather than pass. The ligand lies in a shallow groove rather than a pocket, so it presents 343 square angstroms of broad flat face at 36% buried, and a face like that restrains a docking search weakly -- many wrong placements cover it. Included on purpose. A tool worth trusting has to be seen saying \"not sure\", and the pair with 6UD7 shows the verdict following the chemistry rather than the proteins.",
+  "entry": "6Q0W",
+  "ligand": "EF6",
+  "anchor_chain": "B",
+  "partner_chain": "D",
+  "anchor_name": "DDB1- and CUL4-associated factor 15",
+  "partner_name": "RNA-binding protein 39",
+  "anchor_residues": 208,
+  "partner_residues": 79,
+  "ligand_heavy_atoms": 24,
+  "presented_area": 343.4,
+  "buried_fraction": 0.361,
+  "directionality": 0.247,
+  "face_burial_by_partner": 0.443,
+  "cavity_volume": 553.5,
+  "cavity_points": 1081,
+  "verdict": "borderline",
+  "files": {
+    "A": "complex.pdb",
+    "B": null
+  }
+}

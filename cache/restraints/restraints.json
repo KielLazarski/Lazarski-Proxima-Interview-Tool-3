@@ -1,0 +1,557 @@
+{
+  "generated": "2026-10-27T13:24:27Z",
+  "site_tolerance": 10.0,
+  "reach": {
+    "DSS/DSSO (Lys-Lys)": 30.0,
+    "shorter (Lys-Lys)": 25.0,
+    "short (Lys-Lys)": 20.0,
+    "EDC (Lys-Asp/Glu)": 16.0
+  },
+  "capacity": [
+    {
+      "entry": "6TD3",
+      "anchor_lysines": 31,
+      "partner_lysines": 44,
+      "presented_face_atoms": 6,
+      "ligand_heavy_atoms": 32,
+      "DSS/DSSO (Lys-Lys)": 113,
+      "shorter (Lys-Lys)": 51,
+      "short (Lys-Lys)": 14,
+      "EDC (Lys-Asp/Glu)": 60
+    },
+    {
+      "entry": "8BU5",
+      "anchor_lysines": 29,
+      "partner_lysines": 44,
+      "presented_face_atoms": 2,
+      "ligand_heavy_atoms": 34,
+      "DSS/DSSO (Lys-Lys)": 81,
+      "shorter (Lys-Lys)": 33,
+      "short (Lys-Lys)": 8,
+      "EDC (Lys-Asp/Glu)": 56
+    },
+    {
+      "entry": "6Q0W",
+      "anchor_lysines": 11,
+      "partner_lysines": 4,
+      "presented_face_atoms": 9,
+      "ligand_heavy_atoms": 24,
+      "DSS/DSSO (Lys-Lys)": 7,
+      "shorter (Lys-Lys)": 2,
+      "short (Lys-Lys)": 1,
+      "EDC (Lys-Asp/Glu)": 9
+    },
+    {
+      "entry": "6UD7",
+      "anchor_lysines": 19,
+      "partner_lysines": 4,
+      "presented_face_atoms": 6,
+      "ligand_heavy_atoms": 24,
+      "DSS/DSSO (Lys-Lys)": 27,
+      "shorter (Lys-Lys)": 16,
+      "short (Lys-Lys)": 8,
+      "EDC (Lys-Asp/Glu)": 23
+    },
+    {
+      "entry": "6H0F",
+      "anchor_lysines": 25,
+      "partner_lysines": 2,
+      "presented_face_atoms": 4,
+      "ligand_heavy_atoms": 20,
+      "DSS/DSSO (Lys-Lys)": 9,
+      "shorter (Lys-Lys)": 5,
+      "short (Lys-Lys)": 2,
+      "EDC (Lys-Asp/Glu)": 1
+    },
+    {
+      "entry": "5FQD",
+      "anchor_lysines": 23,
+      "partner_lysines": 24,
+      "presented_face_atoms": 4,
+      "ligand_heavy_atoms": 19,
+      "DSS/DSSO (Lys-Lys)": 35,
+      "shorter (Lys-Lys)": 20,
+      "short (Lys-Lys)": 2,
+      "EDC (Lys-Asp/Glu)": 4
+    }
+  ],
+  "refinement": [
+    {
+      "entry": "6TD3",
+      "rows": [
+        {
+          "n_restraints": 0,
+          "poses": 3182,
+          "median_error": 2.83,
+          "within_2A": 0.368
+        },
+        {
+          "n_restraints": 1,
+          "poses": 2603,
+          "median_error": 2.37,
+          "within_2A": 0.434
+        },
+        {
+          "n_restraints": 2,
+          "poses": 2232,
+          "median_error": 2.12,
+          "within_2A": 0.472
+        },
+        {
+          "n_restraints": 3,
+          "poses": 2005,
+          "median_error": 1.77,
+          "within_2A": 0.545
+        },
+        {
+          "n_restraints": 5,
+          "poses": 1871,
+          "median_error": 1.71,
+          "within_2A": 0.56
+        },
+        {
+          "n_restraints": 8,
+          "poses": 1691,
+          "median_error": 1.48,
+          "within_2A": 0.623
+        },
+        {
+          "n_restraints": 12,
+          "poses": 1422,
+          "median_error": 1.51,
+          "within_2A": 0.599
+        }
+      ]
+    },
+    {
+      "entry": "8BU5",
+      "rows": [
+        {
+          "n_restraints": 0,
+          "poses": 3102,
+          "median_error": 2.77,
+          "within_2A": 0.38
+        },
+        {
+          "n_restraints": 1,
+          "poses": 2663,
+          "median_error": 2.32,
+          "within_2A": 0.443
+        },
+        {
+          "n_restraints": 2,
+          "poses": 2420,
+          "median_error": 2.09,
+          "within_2A": 0.481
+        },
+        {
+          "n_restraints": 3,
+          "poses": 2288,
+          "median_error": 2.0,
+          "within_2A": 0.499
+        },
+        {
+          "n_restraints": 5,
+          "poses": 2106,
+          "median_error": 1.82,
+          "within_2A": 0.534
+        },
+        {
+          "n_restraints": 8,
+          "poses": 1697,
+          "median_error": 1.46,
+          "within_2A": 0.611
+        },
+        {
+          "n_restraints": 12,
+          "poses": 1472,
+          "median_error": 1.28,
+          "within_2A": 0.653
+        }
+      ]
+    },
+    {
+      "entry": "6Q0W",
+      "rows": [
+        {
+          "n_restraints": 0,
+          "poses": 3172,
+          "median_error": 2.73,
+          "within_2A": 0.405
+        },
+        {
+          "n_restraints": 1,
+          "poses": 2244,
+          "median_error": 2.16,
+          "within_2A": 0.479
+        },
+        {
+          "n_restraints": 2,
+          "poses": 2080,
+          "median_error": 2.02,
+          "within_2A": 0.5
+        },
+        {
+          "n_restraints": 3,
+          "poses": 1684,
+          "median_error": 1.71,
+          "within_2A": 0.553
+        },
+        {
+          "n_restraints": 5,
+          "poses": 1159,
+          "median_error": 1.26,
+          "within_2A": 0.637
+        }
+      ]
+    },
+    {
+      "entry": "6UD7",
+      "rows": [
+        {
+          "n_restraints": 0,
+          "poses": 2870,
+          "median_error": 2.52,
+          "within_2A": 0.432
+        },
+        {
+          "n_restraints": 1,
+          "poses": 2452,
+          "median_error": 2.12,
+          "within_2A": 0.498
+        },
+        {
+          "n_restraints": 2,
+          "poses": 2388,
+          "median_error": 1.99,
+          "within_2A": 0.537
+        },
+        {
+          "n_restraints": 3,
+          "poses": 1760,
+          "median_error": 1.37,
+          "within_2A": 0.66
+        },
+        {
+          "n_restraints": 5,
+          "poses": 1696,
+          "median_error": 1.29,
+          "within_2A": 0.69
+        },
+        {
+          "n_restraints": 8,
+          "poses": 1127,
+          "median_error": 1.06,
+          "within_2A": 0.777
+        },
+        {
+          "n_restraints": 12,
+          "poses": 889,
+          "median_error": 0.88,
+          "within_2A": 0.829
+        }
+      ]
+    },
+    {
+      "entry": "6H0F",
+      "rows": [
+        {
+          "n_restraints": 0,
+          "poses": 3329,
+          "median_error": 2.58,
+          "within_2A": 0.404
+        },
+        {
+          "n_restraints": 1,
+          "poses": 2758,
+          "median_error": 2.18,
+          "within_2A": 0.48
+        },
+        {
+          "n_restraints": 2,
+          "poses": 2338,
+          "median_error": 1.85,
+          "within_2A": 0.538
+        },
+        {
+          "n_restraints": 3,
+          "poses": 1761,
+          "median_error": 1.54,
+          "within_2A": 0.621
+        },
+        {
+          "n_restraints": 5,
+          "poses": 1490,
+          "median_error": 1.31,
+          "within_2A": 0.695
+        },
+        {
+          "n_restraints": 8,
+          "poses": 1105,
+          "median_error": 1.12,
+          "within_2A": 0.761
+        }
+      ]
+    },
+    {
+      "entry": "5FQD",
+      "rows": [
+        {
+          "n_restraints": 0,
+          "poses": 2823,
+          "median_error": 2.56,
+          "within_2A": 0.403
+        },
+        {
+          "n_restraints": 1,
+          "poses": 2522,
+          "median_error": 2.4,
+          "within_2A": 0.427
+        },
+        {
+          "n_restraints": 2,
+          "poses": 2211,
+          "median_error": 2.09,
+          "within_2A": 0.481
+        },
+        {
+          "n_restraints": 3,
+          "poses": 2268,
+          "median_error": 2.06,
+          "within_2A": 0.485
+        },
+        {
+          "n_restraints": 5,
+          "poses": 2014,
+          "median_error": 1.87,
+          "within_2A": 0.524
+        },
+        {
+          "n_restraints": 8,
+          "poses": 1911,
+          "median_error": 1.7,
+          "within_2A": 0.56
+        },
+        {
+          "n_restraints": 12,
+          "poses": 1285,
+          "median_error": 1.32,
+          "within_2A": 0.638
+        }
+      ]
+    }
+  ],
+  "global": [
+    {
+      "entry": "6TD3",
+      "accepted_of_tried": [
+        2500,
+        121244
+      ],
+      "baseline_near_site": 0.0112,
+      "rows": [
+        {
+          "restraint": "shape complementarity only",
+          "poses": 2500,
+          "near_site": 0.0112,
+          "enrichment": 1.0
+        },
+        {
+          "restraint": "5 Lys-Lys crosslinks <=30 A",
+          "poses": 21,
+          "near_site": 0.0952,
+          "enrichment": 8.5,
+          "caveat": "few surviving poses; the percentage is unstable"
+        },
+        {
+          "restraint": "partner contacts the presented face (<6.0 A)",
+          "poses": 458,
+          "near_site": 0.059,
+          "enrichment": 5.26
+        },
+        {
+          "restraint": "partner contacts the presented face (<4.5 A)",
+          "poses": 307,
+          "near_site": 0.0814,
+          "enrichment": 7.27
+        }
+      ]
+    },
+    {
+      "entry": "8BU5",
+      "accepted_of_tried": [
+        2500,
+        102676
+      ],
+      "baseline_near_site": 0.0132,
+      "rows": [
+        {
+          "restraint": "shape complementarity only",
+          "poses": 2500,
+          "near_site": 0.0132,
+          "enrichment": 1.0
+        },
+        {
+          "restraint": "5 Lys-Lys crosslinks <=30 A",
+          "poses": 6,
+          "near_site": 0.0,
+          "enrichment": 0.0,
+          "caveat": "few surviving poses; the percentage is unstable"
+        },
+        {
+          "restraint": "partner contacts the presented face (<6.0 A)",
+          "poses": 435,
+          "near_site": 0.0736,
+          "enrichment": 5.57
+        },
+        {
+          "restraint": "partner contacts the presented face (<4.5 A)",
+          "poses": 296,
+          "near_site": 0.098,
+          "enrichment": 7.42
+        }
+      ]
+    },
+    {
+      "entry": "6Q0W",
+      "accepted_of_tried": [
+        2500,
+        49176
+      ],
+      "baseline_near_site": 0.1296,
+      "rows": [
+        {
+          "restraint": "shape complementarity only",
+          "poses": 2500,
+          "near_site": 0.1296,
+          "enrichment": 1.0
+        },
+        {
+          "restraint": "5 Lys-Lys crosslinks <=30 A",
+          "poses": 184,
+          "near_site": 0.1817,
+          "enrichment": 1.4,
+          "caveat": "few surviving poses; the percentage is unstable"
+        },
+        {
+          "restraint": "partner contacts the presented face (<6.0 A)",
+          "poses": 1056,
+          "near_site": 0.3068,
+          "enrichment": 2.37
+        },
+        {
+          "restraint": "partner contacts the presented face (<4.5 A)",
+          "poses": 930,
+          "near_site": 0.3484,
+          "enrichment": 2.69
+        }
+      ]
+    },
+    {
+      "entry": "6UD7",
+      "accepted_of_tried": [
+        120,
+        150000
+      ],
+      "baseline_near_site": 0.1833,
+      "rows": [
+        {
+          "restraint": "shape complementarity only",
+          "poses": 120,
+          "near_site": 0.1833,
+          "enrichment": 1.0
+        },
+        {
+          "restraint": "5 Lys-Lys crosslinks <=30 A",
+          "poses": 18,
+          "near_site": 0.1168,
+          "enrichment": 0.64,
+          "caveat": "few surviving poses; the percentage is unstable"
+        },
+        {
+          "restraint": "partner contacts the presented face (<6.0 A)",
+          "poses": 112,
+          "near_site": 0.1964,
+          "enrichment": 1.07
+        },
+        {
+          "restraint": "partner contacts the presented face (<4.5 A)",
+          "poses": 93,
+          "near_site": 0.2258,
+          "enrichment": 1.23
+        }
+      ]
+    },
+    {
+      "entry": "6H0F",
+      "accepted_of_tried": [
+        2500,
+        20440
+      ],
+      "baseline_near_site": 0.0092,
+      "rows": [
+        {
+          "restraint": "shape complementarity only",
+          "poses": 2500,
+          "near_site": 0.0092,
+          "enrichment": 1.0
+        },
+        {
+          "restraint": "5 Lys-Lys crosslinks <=30 A",
+          "poses": 168,
+          "near_site": 0.0407,
+          "enrichment": 4.42,
+          "caveat": "few surviving poses; the percentage is unstable"
+        },
+        {
+          "restraint": "partner contacts the presented face (<6.0 A)",
+          "poses": 84,
+          "near_site": 0.2738,
+          "enrichment": 29.76
+        },
+        {
+          "restraint": "partner contacts the presented face (<4.5 A)",
+          "poses": 54,
+          "near_site": 0.4074,
+          "enrichment": 44.28
+        }
+      ]
+    },
+    {
+      "entry": "5FQD",
+      "accepted_of_tried": [
+        2500,
+        29056
+      ],
+      "baseline_near_site": 0.0192,
+      "rows": [
+        {
+          "restraint": "shape complementarity only",
+          "poses": 2500,
+          "near_site": 0.0192,
+          "enrichment": 1.0
+        },
+        {
+          "restraint": "5 Lys-Lys crosslinks <=30 A",
+          "poses": 15,
+          "near_site": 0.0088,
+          "enrichment": 0.46,
+          "caveat": "few surviving poses; the percentage is unstable"
+        },
+        {
+          "restraint": "partner contacts the presented face (<6.0 A)",
+          "poses": 163,
+          "near_site": 0.2822,
+          "enrichment": 14.7
+        },
+        {
+          "restraint": "partner contacts the presented face (<4.5 A)",
+          "poses": 113,
+          "near_site": 0.3805,
+          "enrichment": 19.82
+        }
+      ]
+    }
+  ],
+  "note": "Rigid-body throughout; no induced fit. Restrictive restraint combinations leave few surviving poses, so their percentages are unstable and are flagged."
+}

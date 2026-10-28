@@ -1,0 +1,4 @@
+# The engine itself needs only numpy and scipy; the mmCIF reader is pure
+# Python on purpose, so there is no gemmi/biopython dependency to install.
+numpy>=1.26
+scipy>=1.11

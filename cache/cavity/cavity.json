@@ -1,0 +1,1337 @@
+{
+  "generated": "2026-10-27T19:09:57Z",
+  "systems": [
+    {
+      "points": 556,
+      "volume": 284.7,
+      "spacing": 0.8,
+      "mean_enclosure": 2.18,
+      "enclosure_quality": 0.257,
+      "composite_fraction": 0.687,
+      "mean_electrostatic": -1.643,
+      "electrostatic_range": [
+        -9.23,
+        11.65
+      ],
+      "mean_hydrophobic": 2.18,
+      "donor_rich_fraction": 0.045,
+      "acceptor_rich_fraction": 0.023,
+      "entry": "5FQD",
+      "ligand": "LVY",
+      "ligand_recovered": 1.0,
+      "anchor_lined_share": 0.612,
+      "partner_lined_share": 0.162
+    },
+    {
+      "points": 273,
+      "volume": 139.8,
+      "spacing": 0.8,
+      "mean_enclosure": 2.52,
+      "enclosure_quality": 0.56,
+      "composite_fraction": 0.542,
+      "mean_electrostatic": -0.885,
+      "electrostatic_range": [
+        -9.65,
+        1.21
+      ],
+      "mean_hydrophobic": 2.39,
+      "donor_rich_fraction": 0.077,
+      "acceptor_rich_fraction": 0.077,
+      "entry": "6H0F",
+      "ligand": "Y70",
+      "ligand_recovered": 1.0,
+      "anchor_lined_share": 0.784,
+      "partner_lined_share": 0.048
+    },
+    {
+      "points": 724,
+      "volume": 370.7,
+      "spacing": 0.8,
+      "mean_enclosure": 2.11,
+      "enclosure_quality": 0.246,
+      "composite_fraction": 0.45,
+      "mean_electrostatic": -0.639,
+      "electrostatic_range": [
+        -10.6,
+        7.88
+      ],
+      "mean_hydrophobic": 1.97,
+      "donor_rich_fraction": 0.087,
+      "acceptor_rich_fraction": 0.033,
+      "entry": "6Q0R",
+      "ligand": "O6M",
+      "ligand_recovered": 0.542,
+      "anchor_lined_share": 0.673,
+      "partner_lined_share": 0.166
+    },
+    {
+      "points": 193,
+      "volume": 98.8,
+      "spacing": 0.8,
+      "mean_enclosure": 1.81,
+      "enclosure_quality": 0.052,
+      "composite_fraction": 0.699,
+      "mean_electrostatic": -1.264,
+      "electrostatic_range": [
+        -7.42,
+        3.03
+      ],
+      "mean_hydrophobic": 1.7,
+      "donor_rich_fraction": 0.016,
+      "acceptor_rich_fraction": 0.041,
+      "entry": "6Q0V",
+      "ligand": "P7M",
+      "ligand_recovered": 0.7,
+      "anchor_lined_share": 0.642,
+      "partner_lined_share": 0.098
+    },
+    {
+      "points": 1081,
+      "volume": 553.5,
+      "spacing": 0.8,
+      "mean_enclosure": 2.02,
+      "enclosure_quality": 0.149,
+      "composite_fraction": 0.393,
+      "mean_electrostatic": -1.217,
+      "electrostatic_range": [
+        -14.33,
+        6.54
+      ],
+      "mean_hydrophobic": 1.7,
+      "donor_rich_fraction": 0.054,
+      "acceptor_rich_fraction": 0.066,
+      "entry": "6Q0W",
+      "ligand": "EF6",
+      "ligand_recovered": 0.625,
+      "anchor_lined_share": 0.692,
+      "partner_lined_share": 0.17
+    },
+    {
+      "points": 1734,
+      "volume": 887.8,
+      "spacing": 0.8,
+      "mean_enclosure": 2.44,
+      "enclosure_quality": 0.463,
+      "composite_fraction": 0.376,
+      "mean_electrostatic": -0.474,
+      "electrostatic_range": [
+        -9.34,
+        13.79
+      ],
+      "mean_hydrophobic": 1.48,
+      "donor_rich_fraction": 0.085,
+      "acceptor_rich_fraction": 0.08,
+      "entry": "6TD3",
+      "ligand": "RC8",
+      "ligand_recovered": 1.0,
+      "anchor_lined_share": 0.682,
+      "partner_lined_share": 0.225
+    },
+    {
+      "points": 2489,
+      "volume": 1274.4,
+      "spacing": 0.8,
+      "mean_enclosure": 2.32,
+      "enclosure_quality": 0.403,
+      "composite_fraction": 0.373,
+      "mean_electrostatic": -0.918,
+      "electrostatic_range": [
+        -8.32,
+        6.4
+      ],
+      "mean_hydrophobic": 1.49,
+      "donor_rich_fraction": 0.065,
+      "acceptor_rich_fraction": 0.063,
+      "entry": "6UD7",
+      "ligand": "EF6",
+      "ligand_recovered": 1.0,
+      "anchor_lined_share": 0.702,
+      "partner_lined_share": 0.19
+    },
+    {
+      "points": 1199,
+      "volume": 613.9,
+      "spacing": 0.8,
+      "mean_enclosure": 2.7,
+      "enclosure_quality": 0.713,
+      "composite_fraction": 0.344,
+      "mean_electrostatic": -2.048,
+      "electrostatic_range": [
+        -11.65,
+        13.36
+      ],
+      "mean_hydrophobic": 1.55,
+      "donor_rich_fraction": 0.088,
+      "acceptor_rich_fraction": 0.091,
+      "entry": "8BU5",
+      "ligand": "RMF",
+      "ligand_recovered": 1.0,
+      "anchor_lined_share": 0.731,
+      "partner_lined_share": 0.163
+    },
+    {
+      "points": 1572,
+      "volume": 804.9,
+      "spacing": 0.8,
+      "mean_enclosure": 2.51,
+      "enclosure_quality": 0.544,
+      "composite_fraction": 0.284,
+      "mean_electrostatic": -0.162,
+      "electrostatic_range": [
+        -10.84,
+        12.57
+      ],
+      "mean_hydrophobic": 1.36,
+      "donor_rich_fraction": 0.085,
+      "acceptor_rich_fraction": 0.08,
+      "entry": "8BU7",
+      "ligand": "RS5",
+      "ligand_recovered": 1.0,
+      "anchor_lined_share": 0.752,
+      "partner_lined_share": 0.175
+    },
+    {
+      "points": 1648,
+      "volume": 843.8,
+      "spacing": 0.8,
+      "mean_enclosure": 2.49,
+      "enclosure_quality": 0.533,
+      "composite_fraction": 0.345,
+      "mean_electrostatic": 0.366,
+      "electrostatic_range": [
+        -9.16,
+        15.68
+      ],
+      "mean_hydrophobic": 1.32,
+      "donor_rich_fraction": 0.099,
+      "acceptor_rich_fraction": 0.086,
+      "entry": "8BU9",
+      "ligand": "RRC",
+      "ligand_recovered": 1.0,
+      "anchor_lined_share": 0.702,
+      "partner_lined_share": 0.209
+    },
+    {
+      "points": 2163,
+      "volume": 1107.5,
+      "spacing": 0.8,
+      "mean_enclosure": 2.17,
+      "enclosure_quality": 0.239,
+      "composite_fraction": 0.396,
+      "mean_electrostatic": -0.747,
+      "electrostatic_range": [
+        -15.05,
+        16.25
+      ],
+      "mean_hydrophobic": 1.19,
+      "donor_rich_fraction": 0.084,
+      "acceptor_rich_fraction": 0.079,
+      "entry": "8BUA",
+      "ligand": "RVH",
+      "ligand_recovered": 1.0,
+      "anchor_lined_share": 0.648,
+      "partner_lined_share": 0.242
+    },
+    {
+      "points": 1560,
+      "volume": 798.7,
+      "spacing": 0.8,
+      "mean_enclosure": 2.54,
+      "enclosure_quality": 0.575,
+      "composite_fraction": 0.353,
+      "mean_electrostatic": 0.323,
+      "electrostatic_range": [
+        -12.19,
+        15.66
+      ],
+      "mean_hydrophobic": 1.45,
+      "donor_rich_fraction": 0.107,
+      "acceptor_rich_fraction": 0.085,
+      "entry": "8BUJ",
+      "ligand": "RUW",
+      "ligand_recovered": 1.0,
+      "anchor_lined_share": 0.686,
+      "partner_lined_share": 0.214
+    },
+    {
+      "points": 1399,
+      "volume": 716.3,
+      "spacing": 0.8,
+      "mean_enclosure": 2.58,
+      "enclosure_quality": 0.621,
+      "composite_fraction": 0.32,
+      "mean_electrostatic": 0.282,
+      "electrostatic_range": [
+        -8.6,
+        11.23
+      ],
+      "mean_hydrophobic": 1.43,
+      "donor_rich_fraction": 0.102,
+      "acceptor_rich_fraction": 0.075,
+      "entry": "8BUK",
+      "ligand": "RWE",
+      "ligand_recovered": 1.0,
+      "anchor_lined_share": 0.759,
+      "partner_lined_share": 0.159
+    },
+    {
+      "points": 1492,
+      "volume": 763.9,
+      "spacing": 0.8,
+      "mean_enclosure": 2.56,
+      "enclosure_quality": 0.588,
+      "composite_fraction": 0.334,
+      "mean_electrostatic": 0.087,
+      "electrostatic_range": [
+        -12.36,
+        15.63
+      ],
+      "mean_hydrophobic": 1.42,
+      "donor_rich_fraction": 0.113,
+      "acceptor_rich_fraction": 0.099,
+      "entry": "8BUL",
+      "ligand": "RSU",
+      "ligand_recovered": 1.0,
+      "anchor_lined_share": 0.727,
+      "partner_lined_share": 0.198
+    }
+  ],
+  "sensitivity": [
+    {
+      "entry": "5FQD",
+      "reference": {
+        "points": 556,
+        "volume": 284.7,
+        "spacing": 0.8,
+        "mean_enclosure": 2.18,
+        "enclosure_quality": 0.257,
+        "composite_fraction": 0.687,
+        "mean_electrostatic": -1.643,
+        "electrostatic_range": [
+          -9.23,
+          11.65
+        ],
+        "mean_hydrophobic": 2.18,
+        "donor_rich_fraction": 0.045,
+        "acceptor_rich_fraction": 0.023
+      },
+      "anchor_lined_share": 0.612,
+      "partner_lined_share": 0.162,
+      "rows": [
+        {
+          "shift_angstrom": 0.5,
+          "jaccard": 0.856,
+          "coverage": 0.869,
+          "volume_ratio": 0.817,
+          "elec": 0.969,
+          "donor": 0.989,
+          "anchor_keep": 0.916,
+          "partner_keep": 0.789
+        },
+        {
+          "shift_angstrom": 1.0,
+          "jaccard": 0.741,
+          "coverage": 0.757,
+          "volume_ratio": 0.751,
+          "elec": 0.937,
+          "donor": 0.979,
+          "anchor_keep": 0.836,
+          "partner_keep": 0.611
+        },
+        {
+          "shift_angstrom": 2.0,
+          "jaccard": 0.433,
+          "coverage": 0.508,
+          "volume_ratio": 0.698,
+          "elec": 0.771,
+          "donor": 0.908,
+          "anchor_keep": 0.677,
+          "partner_keep": 0.193
+        },
+        {
+          "shift_angstrom": 3.0,
+          "jaccard": 0.329,
+          "coverage": 0.569,
+          "volume_ratio": 1.107,
+          "elec": 0.615,
+          "donor": 0.93,
+          "anchor_keep": 0.711,
+          "partner_keep": 0.27
+        },
+        {
+          "shift_angstrom": 5.0,
+          "jaccard": 0.385,
+          "coverage": 0.656,
+          "volume_ratio": 1.355,
+          "elec": 0.509,
+          "donor": 0.877,
+          "anchor_keep": 0.799,
+          "partner_keep": 0.315
+        }
+      ],
+      "note": "The partner is displaced rigidly by the given magnitude with a matched rotation; the anchor and the ligand stay put. Jaccard is shape agreement with the unperturbed cavity, elec and donor are field correlations over the overlap, and anchor_keep / partner_keep are the share of each region that survives."
+    },
+    {
+      "entry": "6H0F",
+      "reference": {
+        "points": 273,
+        "volume": 139.8,
+        "spacing": 0.8,
+        "mean_enclosure": 2.52,
+        "enclosure_quality": 0.56,
+        "composite_fraction": 0.542,
+        "mean_electrostatic": -0.885,
+        "electrostatic_range": [
+          -9.65,
+          1.21
+        ],
+        "mean_hydrophobic": 2.39,
+        "donor_rich_fraction": 0.077,
+        "acceptor_rich_fraction": 0.077
+      },
+      "anchor_lined_share": 0.784,
+      "partner_lined_share": 0.048,
+      "rows": [
+        {
+          "shift_angstrom": 0.5,
+          "jaccard": 0.914,
+          "coverage": 0.995,
+          "volume_ratio": 1.079,
+          "elec": 0.996,
+          "donor": 0.977,
+          "anchor_keep": 0.997,
+          "partner_keep": 1.0
+        },
+        {
+          "shift_angstrom": 1.0,
+          "jaccard": 0.904,
+          "coverage": 0.912,
+          "volume_ratio": 0.817,
+          "elec": 0.983,
+          "donor": 0.967,
+          "anchor_keep": 0.913,
+          "partner_keep": 0.949
+        },
+        {
+          "shift_angstrom": 2.0,
+          "jaccard": 0.809,
+          "coverage": 0.902,
+          "volume_ratio": 1.04,
+          "elec": 0.979,
+          "donor": 0.929,
+          "anchor_keep": 0.921,
+          "partner_keep": 0.667
+        },
+        {
+          "shift_angstrom": 3.0,
+          "jaccard": 0.606,
+          "coverage": 0.913,
+          "volume_ratio": 1.576,
+          "elec": 0.986,
+          "donor": 0.954,
+          "anchor_keep": 0.922,
+          "partner_keep": 0.769
+        },
+        {
+          "shift_angstrom": 5.0,
+          "jaccard": 0.361,
+          "coverage": 0.613,
+          "volume_ratio": 1.207,
+          "elec": 0.98,
+          "donor": 0.724,
+          "anchor_keep": 0.681,
+          "partner_keep": 0.051
+        }
+      ],
+      "note": "The partner is displaced rigidly by the given magnitude with a matched rotation; the anchor and the ligand stay put. Jaccard is shape agreement with the unperturbed cavity, elec and donor are field correlations over the overlap, and anchor_keep / partner_keep are the share of each region that survives."
+    },
+    {
+      "entry": "6Q0R",
+      "reference": {
+        "points": 724,
+        "volume": 370.7,
+        "spacing": 0.8,
+        "mean_enclosure": 2.11,
+        "enclosure_quality": 0.246,
+        "composite_fraction": 0.45,
+        "mean_electrostatic": -0.639,
+        "electrostatic_range": [
+          -10.6,
+          7.88
+        ],
+        "mean_hydrophobic": 1.97,
+        "donor_rich_fraction": 0.087,
+        "acceptor_rich_fraction": 0.033
+      },
+      "anchor_lined_share": 0.673,
+      "partner_lined_share": 0.166,
+      "rows": [
+        {
+          "shift_angstrom": 0.5,
+          "jaccard": 0.467,
+          "coverage": 0.47,
+          "volume_ratio": 0.492,
+          "elec": 0.978,
+          "donor": 0.961,
+          "anchor_keep": 0.449,
+          "partner_keep": 0.433
+        },
+        {
+          "shift_angstrom": 1.0,
+          "jaccard": 0.895,
+          "coverage": 0.958,
+          "volume_ratio": 1.046,
+          "elec": 0.919,
+          "donor": 0.939,
+          "anchor_keep": 0.989,
+          "partner_keep": 0.814
+        },
+        {
+          "shift_angstrom": 2.0,
+          "jaccard": 0.328,
+          "coverage": 0.383,
+          "volume_ratio": 0.425,
+          "elec": 0.858,
+          "donor": 0.661,
+          "anchor_keep": 0.422,
+          "partner_keep": 0.172
+        },
+        {
+          "shift_angstrom": 3.0,
+          "jaccard": 0.277,
+          "coverage": 0.322,
+          "volume_ratio": 0.361,
+          "elec": 0.818,
+          "donor": 0.662,
+          "anchor_keep": 0.405,
+          "partner_keep": 0.044
+        },
+        {
+          "shift_angstrom": 5.0,
+          "jaccard": 0.448,
+          "coverage": 0.548,
+          "volume_ratio": 0.675,
+          "elec": 0.867,
+          "donor": 0.697,
+          "anchor_keep": 0.645,
+          "partner_keep": 0.214
+        }
+      ],
+      "note": "The partner is displaced rigidly by the given magnitude with a matched rotation; the anchor and the ligand stay put. Jaccard is shape agreement with the unperturbed cavity, elec and donor are field correlations over the overlap, and anchor_keep / partner_keep are the share of each region that survives."
+    },
+    {
+      "entry": "6Q0V",
+      "reference": {
+        "points": 193,
+        "volume": 98.8,
+        "spacing": 0.8,
+        "mean_enclosure": 1.81,
+        "enclosure_quality": 0.052,
+        "composite_fraction": 0.699,
+        "mean_electrostatic": -1.264,
+        "electrostatic_range": [
+          -7.42,
+          3.03
+        ],
+        "mean_hydrophobic": 1.7,
+        "donor_rich_fraction": 0.016,
+        "acceptor_rich_fraction": 0.041
+      },
+      "anchor_lined_share": 0.642,
+      "partner_lined_share": 0.098,
+      "rows": [
+        {
+          "shift_angstrom": 0.5,
+          "jaccard": 0.456,
+          "coverage": 0.993,
+          "volume_ratio": 3.841,
+          "elec": 0.986,
+          "donor": 0.974,
+          "anchor_keep": 0.989,
+          "partner_keep": 1.0
+        },
+        {
+          "shift_angstrom": 1.0,
+          "jaccard": 0.434,
+          "coverage": 0.967,
+          "volume_ratio": 3.829,
+          "elec": 0.967,
+          "donor": 0.93,
+          "anchor_keep": 0.976,
+          "partner_keep": 0.86
+        },
+        {
+          "shift_angstrom": 2.0,
+          "jaccard": 0.6,
+          "coverage": 0.853,
+          "volume_ratio": 2.133,
+          "elec": 0.94,
+          "donor": 0.799,
+          "anchor_keep": 0.981,
+          "partner_keep": 0.333
+        },
+        {
+          "shift_angstrom": 3.0,
+          "jaccard": 0.222,
+          "coverage": 0.561,
+          "volume_ratio": 3.13,
+          "elec": 0.849,
+          "donor": 0.62,
+          "anchor_keep": 0.707,
+          "partner_keep": 0.193
+        },
+        {
+          "shift_angstrom": 5.0,
+          "jaccard": 0.023,
+          "coverage": 0.166,
+          "volume_ratio": 4.886,
+          "elec": 0.823,
+          "donor": 0.245,
+          "anchor_keep": 0.226,
+          "partner_keep": 0.07
+        }
+      ],
+      "note": "The partner is displaced rigidly by the given magnitude with a matched rotation; the anchor and the ligand stay put. Jaccard is shape agreement with the unperturbed cavity, elec and donor are field correlations over the overlap, and anchor_keep / partner_keep are the share of each region that survives."
+    },
+    {
+      "entry": "6Q0W",
+      "reference": {
+        "points": 1081,
+        "volume": 553.5,
+        "spacing": 0.8,
+        "mean_enclosure": 2.02,
+        "enclosure_quality": 0.149,
+        "composite_fraction": 0.393,
+        "mean_electrostatic": -1.217,
+        "electrostatic_range": [
+          -14.33,
+          6.54
+        ],
+        "mean_hydrophobic": 1.7,
+        "donor_rich_fraction": 0.054,
+        "acceptor_rich_fraction": 0.066
+      },
+      "anchor_lined_share": 0.692,
+      "partner_lined_share": 0.17,
+      "rows": [
+        {
+          "shift_angstrom": 0.5,
+          "jaccard": 0.662,
+          "coverage": 0.668,
+          "volume_ratio": 0.672,
+          "elec": 0.983,
+          "donor": 0.961,
+          "anchor_keep": 0.648,
+          "partner_keep": 0.687
+        },
+        {
+          "shift_angstrom": 1.0,
+          "jaccard": 0.638,
+          "coverage": 0.658,
+          "volume_ratio": 0.694,
+          "elec": 0.969,
+          "donor": 0.942,
+          "anchor_keep": 0.645,
+          "partner_keep": 0.665
+        },
+        {
+          "shift_angstrom": 2.0,
+          "jaccard": 0.707,
+          "coverage": 0.82,
+          "volume_ratio": 0.971,
+          "elec": 0.866,
+          "donor": 0.893,
+          "anchor_keep": 0.863,
+          "partner_keep": 0.634
+        },
+        {
+          "shift_angstrom": 3.0,
+          "jaccard": 0.439,
+          "coverage": 0.579,
+          "volume_ratio": 0.808,
+          "elec": 0.835,
+          "donor": 0.639,
+          "anchor_keep": 0.633,
+          "partner_keep": 0.393
+        },
+        {
+          "shift_angstrom": 5.0,
+          "jaccard": 0.386,
+          "coverage": 0.425,
+          "volume_ratio": 0.536,
+          "elec": 0.682,
+          "donor": 0.717,
+          "anchor_keep": 0.52,
+          "partner_keep": 0.147
+        }
+      ],
+      "note": "The partner is displaced rigidly by the given magnitude with a matched rotation; the anchor and the ligand stay put. Jaccard is shape agreement with the unperturbed cavity, elec and donor are field correlations over the overlap, and anchor_keep / partner_keep are the share of each region that survives."
+    },
+    {
+      "entry": "6TD3",
+      "reference": {
+        "points": 1734,
+        "volume": 887.8,
+        "spacing": 0.8,
+        "mean_enclosure": 2.44,
+        "enclosure_quality": 0.463,
+        "composite_fraction": 0.376,
+        "mean_electrostatic": -0.474,
+        "electrostatic_range": [
+          -9.34,
+          13.79
+        ],
+        "mean_hydrophobic": 1.48,
+        "donor_rich_fraction": 0.085,
+        "acceptor_rich_fraction": 0.08
+      },
+      "anchor_lined_share": 0.682,
+      "partner_lined_share": 0.225,
+      "rows": [
+        {
+          "shift_angstrom": 0.5,
+          "jaccard": 0.919,
+          "coverage": 0.937,
+          "volume_ratio": 0.939,
+          "elec": 0.978,
+          "donor": 0.958,
+          "anchor_keep": 0.938,
+          "partner_keep": 0.944
+        },
+        {
+          "shift_angstrom": 1.0,
+          "jaccard": 0.799,
+          "coverage": 0.847,
+          "volume_ratio": 0.904,
+          "elec": 0.929,
+          "donor": 0.796,
+          "anchor_keep": 0.873,
+          "partner_keep": 0.801
+        },
+        {
+          "shift_angstrom": 2.0,
+          "jaccard": 0.696,
+          "coverage": 0.766,
+          "volume_ratio": 0.844,
+          "elec": 0.914,
+          "donor": 0.723,
+          "anchor_keep": 0.823,
+          "partner_keep": 0.64
+        },
+        {
+          "shift_angstrom": 3.0,
+          "jaccard": 0.585,
+          "coverage": 0.654,
+          "volume_ratio": 0.757,
+          "elec": 0.721,
+          "donor": 0.517,
+          "anchor_keep": 0.792,
+          "partner_keep": 0.334
+        },
+        {
+          "shift_angstrom": 5.0,
+          "jaccard": 0.563,
+          "coverage": 0.706,
+          "volume_ratio": 0.951,
+          "elec": 0.738,
+          "donor": 0.56,
+          "anchor_keep": 0.801,
+          "partner_keep": 0.495
+        }
+      ],
+      "note": "The partner is displaced rigidly by the given magnitude with a matched rotation; the anchor and the ligand stay put. Jaccard is shape agreement with the unperturbed cavity, elec and donor are field correlations over the overlap, and anchor_keep / partner_keep are the share of each region that survives."
+    },
+    {
+      "entry": "6UD7",
+      "reference": {
+        "points": 2489,
+        "volume": 1274.4,
+        "spacing": 0.8,
+        "mean_enclosure": 2.32,
+        "enclosure_quality": 0.403,
+        "composite_fraction": 0.373,
+        "mean_electrostatic": -0.918,
+        "electrostatic_range": [
+          -8.32,
+          6.4
+        ],
+        "mean_hydrophobic": 1.49,
+        "donor_rich_fraction": 0.065,
+        "acceptor_rich_fraction": 0.063
+      },
+      "anchor_lined_share": 0.702,
+      "partner_lined_share": 0.19,
+      "rows": [
+        {
+          "shift_angstrom": 0.5,
+          "jaccard": 0.983,
+          "coverage": 0.997,
+          "volume_ratio": 0.991,
+          "elec": 0.935,
+          "donor": 0.983,
+          "anchor_keep": 0.997,
+          "partner_keep": 0.996
+        },
+        {
+          "shift_angstrom": 1.0,
+          "jaccard": 0.937,
+          "coverage": 0.963,
+          "volume_ratio": 0.952,
+          "elec": 0.851,
+          "donor": 0.953,
+          "anchor_keep": 0.989,
+          "partner_keep": 0.895
+        },
+        {
+          "shift_angstrom": 2.0,
+          "jaccard": 0.785,
+          "coverage": 0.811,
+          "volume_ratio": 0.804,
+          "elec": 0.813,
+          "donor": 0.918,
+          "anchor_keep": 0.888,
+          "partner_keep": 0.626
+        },
+        {
+          "shift_angstrom": 3.0,
+          "jaccard": 0.523,
+          "coverage": 0.599,
+          "volume_ratio": 0.674,
+          "elec": 0.757,
+          "donor": 0.924,
+          "anchor_keep": 0.657,
+          "partner_keep": 0.475
+        },
+        {
+          "shift_angstrom": 5.0,
+          "jaccard": 0.565,
+          "coverage": 0.789,
+          "volume_ratio": 1.175,
+          "elec": 0.514,
+          "donor": 0.798,
+          "anchor_keep": 0.872,
+          "partner_keep": 0.522
+        }
+      ],
+      "note": "The partner is displaced rigidly by the given magnitude with a matched rotation; the anchor and the ligand stay put. Jaccard is shape agreement with the unperturbed cavity, elec and donor are field correlations over the overlap, and anchor_keep / partner_keep are the share of each region that survives."
+    },
+    {
+      "entry": "8BU5",
+      "reference": {
+        "points": 1199,
+        "volume": 613.9,
+        "spacing": 0.8,
+        "mean_enclosure": 2.7,
+        "enclosure_quality": 0.713,
+        "composite_fraction": 0.344,
+        "mean_electrostatic": -2.048,
+        "electrostatic_range": [
+          -11.65,
+          13.36
+        ],
+        "mean_hydrophobic": 1.55,
+        "donor_rich_fraction": 0.088,
+        "acceptor_rich_fraction": 0.091
+      },
+      "anchor_lined_share": 0.731,
+      "partner_lined_share": 0.163,
+      "rows": [
+        {
+          "shift_angstrom": 0.5,
+          "jaccard": 0.981,
+          "coverage": 0.994,
+          "volume_ratio": 0.988,
+          "elec": 0.991,
+          "donor": 0.976,
+          "anchor_keep": 1.0,
+          "partner_keep": 0.981
+        },
+        {
+          "shift_angstrom": 1.0,
+          "jaccard": 0.879,
+          "coverage": 0.977,
+          "volume_ratio": 1.122,
+          "elec": 0.975,
+          "donor": 0.878,
+          "anchor_keep": 0.999,
+          "partner_keep": 0.886
+        },
+        {
+          "shift_angstrom": 2.0,
+          "jaccard": 0.824,
+          "coverage": 0.896,
+          "volume_ratio": 0.96,
+          "elec": 0.954,
+          "donor": 0.841,
+          "anchor_keep": 0.985,
+          "partner_keep": 0.59
+        },
+        {
+          "shift_angstrom": 3.0,
+          "jaccard": 0.687,
+          "coverage": 0.783,
+          "volume_ratio": 0.875,
+          "elec": 0.812,
+          "donor": 0.641,
+          "anchor_keep": 0.951,
+          "partner_keep": 0.259
+        },
+        {
+          "shift_angstrom": 5.0,
+          "jaccard": 0.677,
+          "coverage": 0.855,
+          "volume_ratio": 1.183,
+          "elec": 0.838,
+          "donor": 0.636,
+          "anchor_keep": 0.975,
+          "partner_keep": 0.406
+        }
+      ],
+      "note": "The partner is displaced rigidly by the given magnitude with a matched rotation; the anchor and the ligand stay put. Jaccard is shape agreement with the unperturbed cavity, elec and donor are field correlations over the overlap, and anchor_keep / partner_keep are the share of each region that survives."
+    },
+    {
+      "entry": "8BU7",
+      "reference": {
+        "points": 1572,
+        "volume": 804.9,
+        "spacing": 0.8,
+        "mean_enclosure": 2.51,
+        "enclosure_quality": 0.544,
+        "composite_fraction": 0.284,
+        "mean_electrostatic": -0.162,
+        "electrostatic_range": [
+          -10.84,
+          12.57
+        ],
+        "mean_hydrophobic": 1.36,
+        "donor_rich_fraction": 0.085,
+        "acceptor_rich_fraction": 0.08
+      },
+      "anchor_lined_share": 0.752,
+      "partner_lined_share": 0.175,
+      "rows": [
+        {
+          "shift_angstrom": 0.5,
+          "jaccard": 0.882,
+          "coverage": 0.995,
+          "volume_ratio": 1.146,
+          "elec": 0.981,
+          "donor": 0.96,
+          "anchor_keep": 1.0,
+          "partner_keep": 0.979
+        },
+        {
+          "shift_angstrom": 1.0,
+          "jaccard": 0.832,
+          "coverage": 0.979,
+          "volume_ratio": 1.168,
+          "elec": 0.962,
+          "donor": 0.877,
+          "anchor_keep": 0.999,
+          "partner_keep": 0.921
+        },
+        {
+          "shift_angstrom": 2.0,
+          "jaccard": 0.722,
+          "coverage": 0.971,
+          "volume_ratio": 1.372,
+          "elec": 0.895,
+          "donor": 0.696,
+          "anchor_keep": 0.997,
+          "partner_keep": 0.869
+        },
+        {
+          "shift_angstrom": 3.0,
+          "jaccard": 0.618,
+          "coverage": 0.951,
+          "volume_ratio": 1.519,
+          "elec": 0.88,
+          "donor": 0.67,
+          "anchor_keep": 0.986,
+          "partner_keep": 0.806
+        },
+        {
+          "shift_angstrom": 5.0,
+          "jaccard": 0.626,
+          "coverage": 0.822,
+          "volume_ratio": 1.164,
+          "elec": 0.773,
+          "donor": 0.639,
+          "anchor_keep": 0.957,
+          "partner_keep": 0.339
+        }
+      ],
+      "note": "The partner is displaced rigidly by the given magnitude with a matched rotation; the anchor and the ligand stay put. Jaccard is shape agreement with the unperturbed cavity, elec and donor are field correlations over the overlap, and anchor_keep / partner_keep are the share of each region that survives."
+    },
+    {
+      "entry": "8BU9",
+      "reference": {
+        "points": 1648,
+        "volume": 843.8,
+        "spacing": 0.8,
+        "mean_enclosure": 2.49,
+        "enclosure_quality": 0.533,
+        "composite_fraction": 0.345,
+        "mean_electrostatic": 0.366,
+        "electrostatic_range": [
+          -9.16,
+          15.68
+        ],
+        "mean_hydrophobic": 1.32,
+        "donor_rich_fraction": 0.099,
+        "acceptor_rich_fraction": 0.086
+      },
+      "anchor_lined_share": 0.702,
+      "partner_lined_share": 0.209,
+      "rows": [
+        {
+          "shift_angstrom": 0.5,
+          "jaccard": 0.971,
+          "coverage": 0.99,
+          "volume_ratio": 0.989,
+          "elec": 0.983,
+          "donor": 0.964,
+          "anchor_keep": 0.998,
+          "partner_keep": 0.965
+        },
+        {
+          "shift_angstrom": 1.0,
+          "jaccard": 0.899,
+          "coverage": 0.955,
+          "volume_ratio": 1.022,
+          "elec": 0.947,
+          "donor": 0.818,
+          "anchor_keep": 0.989,
+          "partner_keep": 0.843
+        },
+        {
+          "shift_angstrom": 2.0,
+          "jaccard": 0.815,
+          "coverage": 0.913,
+          "volume_ratio": 1.017,
+          "elec": 0.926,
+          "donor": 0.764,
+          "anchor_keep": 0.987,
+          "partner_keep": 0.69
+        },
+        {
+          "shift_angstrom": 3.0,
+          "jaccard": 0.641,
+          "coverage": 0.737,
+          "volume_ratio": 0.859,
+          "elec": 0.842,
+          "donor": 0.617,
+          "anchor_keep": 0.908,
+          "partner_keep": 0.285
+        },
+        {
+          "shift_angstrom": 5.0,
+          "jaccard": 0.644,
+          "coverage": 0.819,
+          "volume_ratio": 1.112,
+          "elec": 0.775,
+          "donor": 0.581,
+          "anchor_keep": 0.93,
+          "partner_keep": 0.514
+        }
+      ],
+      "note": "The partner is displaced rigidly by the given magnitude with a matched rotation; the anchor and the ligand stay put. Jaccard is shape agreement with the unperturbed cavity, elec and donor are field correlations over the overlap, and anchor_keep / partner_keep are the share of each region that survives."
+    },
+    {
+      "entry": "8BUA",
+      "reference": {
+        "points": 2163,
+        "volume": 1107.5,
+        "spacing": 0.8,
+        "mean_enclosure": 2.17,
+        "enclosure_quality": 0.239,
+        "composite_fraction": 0.396,
+        "mean_electrostatic": -0.747,
+        "electrostatic_range": [
+          -15.05,
+          16.25
+        ],
+        "mean_hydrophobic": 1.19,
+        "donor_rich_fraction": 0.084,
+        "acceptor_rich_fraction": 0.079
+      },
+      "anchor_lined_share": 0.648,
+      "partner_lined_share": 0.242,
+      "rows": [
+        {
+          "shift_angstrom": 0.5,
+          "jaccard": 0.928,
+          "coverage": 0.95,
+          "volume_ratio": 0.96,
+          "elec": 0.984,
+          "donor": 0.948,
+          "anchor_keep": 0.989,
+          "partner_keep": 0.875
+        },
+        {
+          "shift_angstrom": 1.0,
+          "jaccard": 0.811,
+          "coverage": 0.888,
+          "volume_ratio": 0.938,
+          "elec": 0.959,
+          "donor": 0.847,
+          "anchor_keep": 0.953,
+          "partner_keep": 0.753
+        },
+        {
+          "shift_angstrom": 2.0,
+          "jaccard": 0.746,
+          "coverage": 0.839,
+          "volume_ratio": 0.963,
+          "elec": 0.928,
+          "donor": 0.737,
+          "anchor_keep": 0.923,
+          "partner_keep": 0.655
+        },
+        {
+          "shift_angstrom": 3.0,
+          "jaccard": 0.656,
+          "coverage": 0.867,
+          "volume_ratio": 1.277,
+          "elec": 0.921,
+          "donor": 0.693,
+          "anchor_keep": 0.959,
+          "partner_keep": 0.652
+        },
+        {
+          "shift_angstrom": 5.0,
+          "jaccard": 0.627,
+          "coverage": 0.781,
+          "volume_ratio": 1.006,
+          "elec": 0.852,
+          "donor": 0.715,
+          "anchor_keep": 0.887,
+          "partner_keep": 0.559
+        }
+      ],
+      "note": "The partner is displaced rigidly by the given magnitude with a matched rotation; the anchor and the ligand stay put. Jaccard is shape agreement with the unperturbed cavity, elec and donor are field correlations over the overlap, and anchor_keep / partner_keep are the share of each region that survives."
+    },
+    {
+      "entry": "8BUJ",
+      "reference": {
+        "points": 1560,
+        "volume": 798.7,
+        "spacing": 0.8,
+        "mean_enclosure": 2.54,
+        "enclosure_quality": 0.575,
+        "composite_fraction": 0.353,
+        "mean_electrostatic": 0.323,
+        "electrostatic_range": [
+          -12.19,
+          15.66
+        ],
+        "mean_hydrophobic": 1.45,
+        "donor_rich_fraction": 0.107,
+        "acceptor_rich_fraction": 0.085
+      },
+      "anchor_lined_share": 0.686,
+      "partner_lined_share": 0.214,
+      "rows": [
+        {
+          "shift_angstrom": 0.5,
+          "jaccard": 0.972,
+          "coverage": 0.982,
+          "volume_ratio": 0.976,
+          "elec": 0.977,
+          "donor": 0.961,
+          "anchor_keep": 0.995,
+          "partner_keep": 0.955
+        },
+        {
+          "shift_angstrom": 1.0,
+          "jaccard": 0.894,
+          "coverage": 0.945,
+          "volume_ratio": 1.013,
+          "elec": 0.935,
+          "donor": 0.831,
+          "anchor_keep": 0.993,
+          "partner_keep": 0.799
+        },
+        {
+          "shift_angstrom": 2.0,
+          "jaccard": 0.806,
+          "coverage": 0.87,
+          "volume_ratio": 0.926,
+          "elec": 0.9,
+          "donor": 0.757,
+          "anchor_keep": 0.961,
+          "partner_keep": 0.637
+        },
+        {
+          "shift_angstrom": 3.0,
+          "jaccard": 0.639,
+          "coverage": 0.707,
+          "volume_ratio": 0.787,
+          "elec": 0.753,
+          "donor": 0.595,
+          "anchor_keep": 0.896,
+          "partner_keep": 0.224
+        },
+        {
+          "shift_angstrom": 5.0,
+          "jaccard": 0.629,
+          "coverage": 0.772,
+          "volume_ratio": 1.043,
+          "elec": 0.688,
+          "donor": 0.547,
+          "anchor_keep": 0.896,
+          "partner_keep": 0.458
+        }
+      ],
+      "note": "The partner is displaced rigidly by the given magnitude with a matched rotation; the anchor and the ligand stay put. Jaccard is shape agreement with the unperturbed cavity, elec and donor are field correlations over the overlap, and anchor_keep / partner_keep are the share of each region that survives."
+    },
+    {
+      "entry": "8BUK",
+      "reference": {
+        "points": 1399,
+        "volume": 716.3,
+        "spacing": 0.8,
+        "mean_enclosure": 2.58,
+        "enclosure_quality": 0.621,
+        "composite_fraction": 0.32,
+        "mean_electrostatic": 0.282,
+        "electrostatic_range": [
+          -8.6,
+          11.23
+        ],
+        "mean_hydrophobic": 1.43,
+        "donor_rich_fraction": 0.102,
+        "acceptor_rich_fraction": 0.075
+      },
+      "anchor_lined_share": 0.759,
+      "partner_lined_share": 0.159,
+      "rows": [
+        {
+          "shift_angstrom": 0.5,
+          "jaccard": 0.966,
+          "coverage": 0.997,
+          "volume_ratio": 1.036,
+          "elec": 0.973,
+          "donor": 0.949,
+          "anchor_keep": 0.999,
+          "partner_keep": 0.988
+        },
+        {
+          "shift_angstrom": 1.0,
+          "jaccard": 0.957,
+          "coverage": 0.975,
+          "volume_ratio": 0.947,
+          "elec": 0.959,
+          "donor": 0.944,
+          "anchor_keep": 0.981,
+          "partner_keep": 0.959
+        },
+        {
+          "shift_angstrom": 2.0,
+          "jaccard": 0.85,
+          "coverage": 0.912,
+          "volume_ratio": 0.966,
+          "elec": 0.879,
+          "donor": 0.798,
+          "anchor_keep": 0.982,
+          "partner_keep": 0.649
+        },
+        {
+          "shift_angstrom": 3.0,
+          "jaccard": 0.714,
+          "coverage": 0.928,
+          "volume_ratio": 1.266,
+          "elec": 0.779,
+          "donor": 0.586,
+          "anchor_keep": 0.97,
+          "partner_keep": 0.734
+        },
+        {
+          "shift_angstrom": 5.0,
+          "jaccard": 0.616,
+          "coverage": 0.777,
+          "volume_ratio": 1.027,
+          "elec": 0.742,
+          "donor": 0.587,
+          "anchor_keep": 0.938,
+          "partner_keep": 0.183
+        }
+      ],
+      "note": "The partner is displaced rigidly by the given magnitude with a matched rotation; the anchor and the ligand stay put. Jaccard is shape agreement with the unperturbed cavity, elec and donor are field correlations over the overlap, and anchor_keep / partner_keep are the share of each region that survives."
+    },
+    {
+      "entry": "8BUL",
+      "reference": {
+        "points": 1492,
+        "volume": 763.9,
+        "spacing": 0.8,
+        "mean_enclosure": 2.56,
+        "enclosure_quality": 0.588,
+        "composite_fraction": 0.334,
+        "mean_electrostatic": 0.087,
+        "electrostatic_range": [
+          -12.36,
+          15.63
+        ],
+        "mean_hydrophobic": 1.42,
+        "donor_rich_fraction": 0.113,
+        "acceptor_rich_fraction": 0.099
+      },
+      "anchor_lined_share": 0.727,
+      "partner_lined_share": 0.198,
+      "rows": [
+        {
+          "shift_angstrom": 0.5,
+          "jaccard": 0.942,
+          "coverage": 0.992,
+          "volume_ratio": 1.037,
+          "elec": 0.981,
+          "donor": 0.963,
+          "anchor_keep": 0.998,
+          "partner_keep": 0.976
+        },
+        {
+          "shift_angstrom": 1.0,
+          "jaccard": 0.856,
+          "coverage": 0.958,
+          "volume_ratio": 1.077,
+          "elec": 0.926,
+          "donor": 0.83,
+          "anchor_keep": 0.997,
+          "partner_keep": 0.816
+        },
+        {
+          "shift_angstrom": 2.0,
+          "jaccard": 0.806,
+          "coverage": 0.889,
+          "volume_ratio": 0.971,
+          "elec": 0.913,
+          "donor": 0.758,
+          "anchor_keep": 0.973,
+          "partner_keep": 0.613
+        },
+        {
+          "shift_angstrom": 3.0,
+          "jaccard": 0.661,
+          "coverage": 0.75,
+          "volume_ratio": 0.864,
+          "elec": 0.809,
+          "donor": 0.55,
+          "anchor_keep": 0.905,
+          "partner_keep": 0.27
+        },
+        {
+          "shift_angstrom": 5.0,
+          "jaccard": 0.631,
+          "coverage": 0.794,
+          "volume_ratio": 1.103,
+          "elec": 0.752,
+          "donor": 0.537,
+          "anchor_keep": 0.898,
+          "partner_keep": 0.462
+        }
+      ],
+      "note": "The partner is displaced rigidly by the given magnitude with a matched rotation; the anchor and the ligand stay put. Jaccard is shape agreement with the unperturbed cavity, elec and donor are field correlations over the overlap, and anchor_keep / partner_keep are the share of each region that survives."
+    }
+  ]
+}

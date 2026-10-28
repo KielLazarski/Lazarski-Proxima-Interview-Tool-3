@@ -1,0 +1,2164 @@
+{
+  "note": "Gate calibration against decoy poses. Positives are the crystal placement of the partner; negatives are the plausible random placements that bury the presented face best, which are the ones a docking run would rank highest and the gate would actually be asked about. AUC 0.5 means the metric carries no signal.",
+  "n_systems": 14,
+  "decoys_per_system": 15,
+  "seed": 20261027,
+  "metrics": {
+    "volume": {
+      "auc": 0.7922,
+      "native_median": 740.096,
+      "native_min": 98.816,
+      "native_p10": 183.2448,
+      "decoy_p90": 509.952,
+      "decoy_median": 403.968,
+      "decoy_max": 1118.72,
+      "direction": 1,
+      "label": "cavity volume",
+      "unit": "\u00c5\u00b3",
+      "threshold": 553.472,
+      "youden_j": 0.6429,
+      "sensitivity": 0.7143,
+      "specificity": 0.9286
+    },
+    "enclosure_quality": {
+      "auc": 0.7881,
+      "native_median": 0.498,
+      "native_min": 0.0518,
+      "native_p10": 0.1758,
+      "decoy_p90": 0.4401,
+      "decoy_median": 0.204,
+      "decoy_max": 0.5821,
+      "direction": 1,
+      "label": "enclosure quality",
+      "unit": "",
+      "threshold": 0.4631,
+      "youden_j": 0.5333,
+      "sensitivity": 0.5714,
+      "specificity": 0.9619
+    },
+    "composite_fraction": {
+      "auc": 0.9724,
+      "native_median": 0.2703,
+      "native_min": 0.2005,
+      "native_p10": 0.2232,
+      "decoy_p90": 0.1443,
+      "decoy_median": 0.0,
+      "decoy_max": 0.6183,
+      "direction": 1,
+      "label": "lined by both proteins",
+      "unit": "",
+      "threshold": 0.2005,
+      "youden_j": 0.9524,
+      "sensitivity": 1.0,
+      "specificity": 0.9524
+    },
+    "mean_enclosure": {
+      "auc": 0.7531,
+      "native_median": 2.4639,
+      "native_min": 1.8135,
+      "native_p10": 2.0463,
+      "decoy_p90": 2.4244,
+      "decoy_median": 2.1437,
+      "decoy_max": 2.5626,
+      "direction": 1,
+      "label": "mean enclosure",
+      "unit": "",
+      "threshold": 2.44,
+      "youden_j": 0.5333,
+      "sensitivity": 0.5714,
+      "specificity": 0.9619
+    },
+    "ligand_recovery": {
+      "auc": 0.8253,
+      "native_median": 1.0,
+      "native_min": 0.5417,
+      "native_p10": 0.6475,
+      "decoy_p90": 0.9435,
+      "decoy_median": 0.7857,
+      "decoy_max": 1.0,
+      "direction": 1,
+      "label": "cavity covers the ligand",
+      "unit": "",
+      "threshold": 1.0,
+      "youden_j": 0.6905,
+      "sensitivity": 0.7857,
+      "specificity": 0.9048
+    },
+    "face_burial": {
+      "auc": 0.9952,
+      "native_median": 0.6651,
+      "native_min": 0.3418,
+      "native_p10": 0.4221,
+      "decoy_p90": 0.1444,
+      "decoy_median": 0.0,
+      "decoy_max": 0.4634,
+      "direction": 1,
+      "label": "presented face buried",
+      "unit": "",
+      "threshold": 0.3418,
+      "youden_j": 0.9619,
+      "sensitivity": 1.0,
+      "specificity": 0.9619
+    }
+  },
+  "systems": [
+    {
+      "entry": "5FQD",
+      "ligand": "LVY",
+      "buried_fraction": 0.8245,
+      "directionality": 0.877,
+      "native": {
+        "volume": 284.672,
+        "enclosure_quality": 0.2572,
+        "mean_enclosure": 2.1799,
+        "composite_fraction": 0.4992,
+        "ligand_recovery": 1.0,
+        "face_burial": 0.8518
+      },
+      "decoys": [
+        {
+          "volume": 816.128,
+          "enclosure_quality": 0.1637,
+          "mean_enclosure": 2.0389,
+          "composite_fraction": 0.2089,
+          "ligand_recovery": 1.0,
+          "face_burial": 0.2187
+        },
+        {
+          "volume": 395.776,
+          "enclosure_quality": 0.2122,
+          "mean_enclosure": 2.0414,
+          "composite_fraction": 0.1658,
+          "ligand_recovery": 1.0,
+          "face_burial": 0.0421
+        },
+        {
+          "volume": 95.744,
+          "enclosure_quality": 0.4439,
+          "mean_enclosure": 2.4385,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.6316,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 95.744,
+          "enclosure_quality": 0.4439,
+          "mean_enclosure": 2.4385,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.6316,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 95.744,
+          "enclosure_quality": 0.4439,
+          "mean_enclosure": 2.4385,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.6316,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 95.744,
+          "enclosure_quality": 0.4439,
+          "mean_enclosure": 2.4385,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.6316,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 95.744,
+          "enclosure_quality": 0.4439,
+          "mean_enclosure": 2.4385,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.6316,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 95.744,
+          "enclosure_quality": 0.4439,
+          "mean_enclosure": 2.4385,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.6316,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 95.744,
+          "enclosure_quality": 0.4439,
+          "mean_enclosure": 2.4385,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.6316,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 95.744,
+          "enclosure_quality": 0.4439,
+          "mean_enclosure": 2.4385,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.6316,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 95.744,
+          "enclosure_quality": 0.4439,
+          "mean_enclosure": 2.4385,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.6316,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 95.744,
+          "enclosure_quality": 0.4439,
+          "mean_enclosure": 2.4385,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.6316,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 95.744,
+          "enclosure_quality": 0.4439,
+          "mean_enclosure": 2.4385,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.6316,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 107.52,
+          "enclosure_quality": 0.481,
+          "mean_enclosure": 2.4762,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.6316,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 95.744,
+          "enclosure_quality": 0.4439,
+          "mean_enclosure": 2.4385,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.6316,
+          "face_burial": 0.0
+        }
+      ],
+      "n_decoys_scored": 113,
+      "n_decoys_kept": 15,
+      "seconds": 20.9,
+      "decoys_matching_or_beating_native": {
+        "volume": 2,
+        "enclosure_quality": 13,
+        "composite_fraction": 0,
+        "mean_enclosure": 13,
+        "ligand_recovery": 2,
+        "face_burial": 0
+      }
+    },
+    {
+      "entry": "6H0F",
+      "ligand": "Y70",
+      "buried_fraction": 0.829,
+      "directionality": 0.864,
+      "native": {
+        "volume": 139.776,
+        "enclosure_quality": 0.5604,
+        "mean_enclosure": 2.5165,
+        "composite_fraction": 0.3944,
+        "ligand_recovery": 1.0,
+        "face_burial": 0.9402
+      },
+      "decoys": [
+        {
+          "volume": 425.984,
+          "enclosure_quality": 0.1623,
+          "mean_enclosure": 1.9856,
+          "composite_fraction": 0.3559,
+          "ligand_recovery": 1.0,
+          "face_burial": 0.4394
+        },
+        {
+          "volume": 265.216,
+          "enclosure_quality": 0.0463,
+          "mean_enclosure": 1.9324,
+          "composite_fraction": 0.1404,
+          "ligand_recovery": 0.8,
+          "face_burial": 0.2158
+        },
+        {
+          "volume": 234.496,
+          "enclosure_quality": 0.0633,
+          "mean_enclosure": 1.976,
+          "composite_fraction": 0.1721,
+          "ligand_recovery": 0.9,
+          "face_burial": 0.1126
+        },
+        {
+          "volume": 143.36,
+          "enclosure_quality": 0.0357,
+          "mean_enclosure": 1.8821,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.75,
+          "face_burial": 0.052
+        },
+        {
+          "volume": 121.856,
+          "enclosure_quality": 0.042,
+          "mean_enclosure": 1.8319,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.75,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 121.856,
+          "enclosure_quality": 0.042,
+          "mean_enclosure": 1.8319,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.75,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 121.856,
+          "enclosure_quality": 0.042,
+          "mean_enclosure": 1.8319,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.75,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 147.456,
+          "enclosure_quality": 0.5208,
+          "mean_enclosure": 2.4757,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.75,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 121.856,
+          "enclosure_quality": 0.042,
+          "mean_enclosure": 1.8319,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.75,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 121.856,
+          "enclosure_quality": 0.042,
+          "mean_enclosure": 1.8319,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.75,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 121.856,
+          "enclosure_quality": 0.042,
+          "mean_enclosure": 1.8319,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.75,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 121.856,
+          "enclosure_quality": 0.042,
+          "mean_enclosure": 1.8319,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.75,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 121.856,
+          "enclosure_quality": 0.042,
+          "mean_enclosure": 1.8319,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.75,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 121.856,
+          "enclosure_quality": 0.042,
+          "mean_enclosure": 1.8319,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.75,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 121.856,
+          "enclosure_quality": 0.042,
+          "mean_enclosure": 1.8319,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.75,
+          "face_burial": 0.0
+        }
+      ],
+      "n_decoys_scored": 119,
+      "n_decoys_kept": 15,
+      "seconds": 6.7,
+      "decoys_matching_or_beating_native": {
+        "volume": 5,
+        "enclosure_quality": 0,
+        "composite_fraction": 0,
+        "mean_enclosure": 0,
+        "ligand_recovery": 1,
+        "face_burial": 0
+      }
+    },
+    {
+      "entry": "6Q0R",
+      "ligand": "O6M",
+      "buried_fraction": 0.3967,
+      "directionality": 0.215,
+      "native": {
+        "volume": 370.688,
+        "enclosure_quality": 0.2459,
+        "mean_enclosure": 2.1091,
+        "composite_fraction": 0.3262,
+        "ligand_recovery": 0.5417,
+        "face_burial": 0.4585
+      },
+      "decoys": [
+        {
+          "volume": 11.776,
+          "enclosure_quality": 0.0,
+          "mean_enclosure": 2.0,
+          "composite_fraction": 0.6183,
+          "ligand_recovery": 0.2917,
+          "face_burial": 0.3292
+        },
+        {
+          "volume": 454.144,
+          "enclosure_quality": 0.1285,
+          "mean_enclosure": 1.9718,
+          "composite_fraction": 0.3403,
+          "ligand_recovery": 0.0833,
+          "face_burial": 0.2146
+        },
+        {
+          "volume": 222.208,
+          "enclosure_quality": 0.2535,
+          "mean_enclosure": 2.1152,
+          "composite_fraction": 0.0202,
+          "ligand_recovery": 0.0,
+          "face_burial": 0.1894
+        },
+        {
+          "volume": 100.352,
+          "enclosure_quality": 0.0408,
+          "mean_enclosure": 1.898,
+          "composite_fraction": 0.2001,
+          "ligand_recovery": 0.625,
+          "face_burial": 0.1753
+        },
+        {
+          "volume": 81.92,
+          "enclosure_quality": 0.0,
+          "mean_enclosure": 1.9375,
+          "composite_fraction": 0.5092,
+          "ligand_recovery": 0.2917,
+          "face_burial": 0.1515
+        },
+        {
+          "volume": 327.68,
+          "enclosure_quality": 0.1734,
+          "mean_enclosure": 1.9328,
+          "composite_fraction": 0.1648,
+          "ligand_recovery": 0.0,
+          "face_burial": 0.081
+        },
+        {
+          "volume": 285.696,
+          "enclosure_quality": 0.1918,
+          "mean_enclosure": 2.0771,
+          "composite_fraction": 0.2123,
+          "ligand_recovery": 0.0,
+          "face_burial": 0.0178
+        },
+        {
+          "volume": 215.552,
+          "enclosure_quality": 0.1639,
+          "mean_enclosure": 2.0333,
+          "composite_fraction": 0.0028,
+          "ligand_recovery": 0.0,
+          "face_burial": 0.004
+        },
+        {
+          "volume": 59.392,
+          "enclosure_quality": 0.0862,
+          "mean_enclosure": 1.9828,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.0,
+          "face_burial": 0.0036
+        },
+        {
+          "volume": 176.64,
+          "enclosure_quality": 0.0348,
+          "mean_enclosure": 1.8522,
+          "composite_fraction": 0.0114,
+          "ligand_recovery": 0.0,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 161.792,
+          "enclosure_quality": 0.038,
+          "mean_enclosure": 1.8639,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.0,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 343.04,
+          "enclosure_quality": 0.1552,
+          "mean_enclosure": 2.0134,
+          "composite_fraction": 0.1809,
+          "ligand_recovery": 0.0,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 161.792,
+          "enclosure_quality": 0.038,
+          "mean_enclosure": 1.8639,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.0,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 161.792,
+          "enclosure_quality": 0.038,
+          "mean_enclosure": 1.8639,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.0,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 161.792,
+          "enclosure_quality": 0.038,
+          "mean_enclosure": 1.8639,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.0,
+          "face_burial": 0.0
+        }
+      ],
+      "n_decoys_scored": 118,
+      "n_decoys_kept": 15,
+      "seconds": 6.5,
+      "decoys_matching_or_beating_native": {
+        "volume": 1,
+        "enclosure_quality": 1,
+        "composite_fraction": 3,
+        "mean_enclosure": 1,
+        "ligand_recovery": 1,
+        "face_burial": 0
+      }
+    },
+    {
+      "entry": "6Q0V",
+      "ligand": "P7M",
+      "buried_fraction": 0.4187,
+      "directionality": 0.274,
+      "native": {
+        "volume": 98.816,
+        "enclosure_quality": 0.0518,
+        "mean_enclosure": 1.8135,
+        "composite_fraction": 0.5215,
+        "ligand_recovery": 0.7,
+        "face_burial": 0.4133
+      },
+      "decoys": [
+        {
+          "volume": 108.032,
+          "enclosure_quality": 0.0711,
+          "mean_enclosure": 2.0284,
+          "composite_fraction": 0.1494,
+          "ligand_recovery": 0.15,
+          "face_burial": 0.3801
+        },
+        {
+          "volume": 35.84,
+          "enclosure_quality": 0.0,
+          "mean_enclosure": 1.7857,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.0,
+          "face_burial": 0.2154
+        },
+        {
+          "volume": 497.152,
+          "enclosure_quality": 0.0906,
+          "mean_enclosure": 1.8939,
+          "composite_fraction": 0.2849,
+          "ligand_recovery": 0.05,
+          "face_burial": 0.1444
+        },
+        {
+          "volume": 494.08,
+          "enclosure_quality": 0.0767,
+          "mean_enclosure": 1.886,
+          "composite_fraction": 0.2321,
+          "ligand_recovery": 0.4,
+          "face_burial": 0.1217
+        },
+        {
+          "volume": 91.648,
+          "enclosure_quality": 0.0,
+          "mean_enclosure": 1.8771,
+          "composite_fraction": 0.1842,
+          "ligand_recovery": 0.0,
+          "face_burial": 0.0813
+        },
+        {
+          "volume": 50.176,
+          "enclosure_quality": 0.0,
+          "mean_enclosure": 1.9082,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.0,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 50.176,
+          "enclosure_quality": 0.0,
+          "mean_enclosure": 1.9082,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.0,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 50.176,
+          "enclosure_quality": 0.0,
+          "mean_enclosure": 1.9082,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.0,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 50.176,
+          "enclosure_quality": 0.0,
+          "mean_enclosure": 1.9082,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.0,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 50.176,
+          "enclosure_quality": 0.0,
+          "mean_enclosure": 1.9082,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.0,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 50.176,
+          "enclosure_quality": 0.0,
+          "mean_enclosure": 1.9082,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.0,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 50.176,
+          "enclosure_quality": 0.0,
+          "mean_enclosure": 1.9082,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.0,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 50.176,
+          "enclosure_quality": 0.0,
+          "mean_enclosure": 1.9082,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.0,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 50.176,
+          "enclosure_quality": 0.0,
+          "mean_enclosure": 1.9082,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.0,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 50.176,
+          "enclosure_quality": 0.0,
+          "mean_enclosure": 1.9082,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.0,
+          "face_burial": 0.0
+        }
+      ],
+      "n_decoys_scored": 116,
+      "n_decoys_kept": 15,
+      "seconds": 5.4,
+      "decoys_matching_or_beating_native": {
+        "volume": 3,
+        "enclosure_quality": 3,
+        "composite_fraction": 0,
+        "mean_enclosure": 14,
+        "ligand_recovery": 0,
+        "face_burial": 0
+      }
+    },
+    {
+      "entry": "6Q0W",
+      "ligand": "EF6",
+      "buried_fraction": 0.3609,
+      "directionality": 0.247,
+      "native": {
+        "volume": 553.472,
+        "enclosure_quality": 0.1489,
+        "mean_enclosure": 2.0194,
+        "composite_fraction": 0.2889,
+        "ligand_recovery": 0.625,
+        "face_burial": 0.4425
+      },
+      "decoys": [
+        {
+          "volume": 699.392,
+          "enclosure_quality": 0.1127,
+          "mean_enclosure": 1.9553,
+          "composite_fraction": 0.2476,
+          "ligand_recovery": 0.3333,
+          "face_burial": 0.1812
+        },
+        {
+          "volume": 20.992,
+          "enclosure_quality": 0.0,
+          "mean_enclosure": 2.0,
+          "composite_fraction": 0.5251,
+          "ligand_recovery": 0.0833,
+          "face_burial": 0.1434
+        },
+        {
+          "volume": 288.256,
+          "enclosure_quality": 0.0746,
+          "mean_enclosure": 1.8934,
+          "composite_fraction": 0.1881,
+          "ligand_recovery": 0.0,
+          "face_burial": 0.1039
+        },
+        {
+          "volume": 57.344,
+          "enclosure_quality": 0.0,
+          "mean_enclosure": 1.9196,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.0,
+          "face_burial": 0.0396
+        },
+        {
+          "volume": 52.224,
+          "enclosure_quality": 0.0,
+          "mean_enclosure": 1.9608,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.0,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 52.224,
+          "enclosure_quality": 0.0,
+          "mean_enclosure": 1.9608,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.0,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 52.224,
+          "enclosure_quality": 0.0,
+          "mean_enclosure": 1.9608,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.0,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 52.224,
+          "enclosure_quality": 0.0,
+          "mean_enclosure": 1.9608,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.0,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 52.224,
+          "enclosure_quality": 0.0,
+          "mean_enclosure": 1.9608,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.0,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 52.224,
+          "enclosure_quality": 0.0,
+          "mean_enclosure": 1.9608,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.0,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 52.224,
+          "enclosure_quality": 0.0,
+          "mean_enclosure": 1.9608,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.0,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 52.224,
+          "enclosure_quality": 0.0,
+          "mean_enclosure": 1.9608,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.0,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 52.224,
+          "enclosure_quality": 0.0,
+          "mean_enclosure": 1.9608,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.0,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 52.224,
+          "enclosure_quality": 0.0,
+          "mean_enclosure": 1.9608,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.0,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 52.224,
+          "enclosure_quality": 0.0,
+          "mean_enclosure": 1.9608,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.0,
+          "face_burial": 0.0
+        }
+      ],
+      "n_decoys_scored": 115,
+      "n_decoys_kept": 15,
+      "seconds": 5.8,
+      "decoys_matching_or_beating_native": {
+        "volume": 1,
+        "enclosure_quality": 0,
+        "composite_fraction": 1,
+        "mean_enclosure": 0,
+        "ligand_recovery": 0,
+        "face_burial": 0
+      }
+    },
+    {
+      "entry": "6TD3",
+      "ligand": "RC8",
+      "buried_fraction": 0.7494,
+      "directionality": 0.757,
+      "native": {
+        "volume": 887.808,
+        "enclosure_quality": 0.4631,
+        "mean_enclosure": 2.44,
+        "composite_fraction": 0.2645,
+        "ligand_recovery": 1.0,
+        "face_burial": 0.7772
+      },
+      "decoys": [
+        {
+          "volume": 683.008,
+          "enclosure_quality": 0.5045,
+          "mean_enclosure": 2.4828,
+          "composite_fraction": 0.1437,
+          "ligand_recovery": 0.875,
+          "face_burial": 0.4411
+        },
+        {
+          "volume": 752.128,
+          "enclosure_quality": 0.3458,
+          "mean_enclosure": 2.2873,
+          "composite_fraction": 0.0561,
+          "ligand_recovery": 0.875,
+          "face_burial": 0.2442
+        },
+        {
+          "volume": 478.72,
+          "enclosure_quality": 0.4246,
+          "mean_enclosure": 2.4,
+          "composite_fraction": 0.0004,
+          "ligand_recovery": 0.8125,
+          "face_burial": 0.1182
+        },
+        {
+          "volume": 467.968,
+          "enclosure_quality": 0.3173,
+          "mean_enclosure": 2.2877,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.8125,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 467.968,
+          "enclosure_quality": 0.3173,
+          "mean_enclosure": 2.2877,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.8125,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 467.968,
+          "enclosure_quality": 0.3173,
+          "mean_enclosure": 2.2877,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.8125,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 467.968,
+          "enclosure_quality": 0.3173,
+          "mean_enclosure": 2.2877,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.8125,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 467.968,
+          "enclosure_quality": 0.3173,
+          "mean_enclosure": 2.2877,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.8125,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 467.968,
+          "enclosure_quality": 0.3173,
+          "mean_enclosure": 2.2877,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.8125,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 467.968,
+          "enclosure_quality": 0.3173,
+          "mean_enclosure": 2.2877,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.8125,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 467.968,
+          "enclosure_quality": 0.3173,
+          "mean_enclosure": 2.2877,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.8125,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 467.968,
+          "enclosure_quality": 0.3173,
+          "mean_enclosure": 2.2877,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.8125,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 467.968,
+          "enclosure_quality": 0.3173,
+          "mean_enclosure": 2.2877,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.8125,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 467.968,
+          "enclosure_quality": 0.3173,
+          "mean_enclosure": 2.2877,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.8125,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 467.968,
+          "enclosure_quality": 0.3173,
+          "mean_enclosure": 2.2877,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.8125,
+          "face_burial": 0.0
+        }
+      ],
+      "n_decoys_scored": 122,
+      "n_decoys_kept": 15,
+      "seconds": 65.7,
+      "decoys_matching_or_beating_native": {
+        "volume": 0,
+        "enclosure_quality": 1,
+        "composite_fraction": 0,
+        "mean_enclosure": 1,
+        "ligand_recovery": 0,
+        "face_burial": 0
+      }
+    },
+    {
+      "entry": "6UD7",
+      "ligand": "EF6",
+      "buried_fraction": 0.6798,
+      "directionality": 0.343,
+      "native": {
+        "volume": 1274.368,
+        "enclosure_quality": 0.4034,
+        "mean_enclosure": 2.3178,
+        "composite_fraction": 0.2761,
+        "ligand_recovery": 1.0,
+        "face_burial": 0.607
+      },
+      "decoys": [
+        {
+          "volume": 257.536,
+          "enclosure_quality": 0.2425,
+          "mean_enclosure": 2.2147,
+          "composite_fraction": 0.1234,
+          "ligand_recovery": 0.375,
+          "face_burial": 0.0506
+        },
+        {
+          "volume": 178.176,
+          "enclosure_quality": 0.204,
+          "mean_enclosure": 2.1609,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.25,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 178.176,
+          "enclosure_quality": 0.204,
+          "mean_enclosure": 2.1609,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.25,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 178.176,
+          "enclosure_quality": 0.204,
+          "mean_enclosure": 2.1609,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.25,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 178.176,
+          "enclosure_quality": 0.204,
+          "mean_enclosure": 2.1609,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.25,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 179.2,
+          "enclosure_quality": 0.2029,
+          "mean_enclosure": 2.1629,
+          "composite_fraction": 0.0013,
+          "ligand_recovery": 0.25,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 178.176,
+          "enclosure_quality": 0.204,
+          "mean_enclosure": 2.1609,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.25,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 178.176,
+          "enclosure_quality": 0.204,
+          "mean_enclosure": 2.1609,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.25,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 178.176,
+          "enclosure_quality": 0.204,
+          "mean_enclosure": 2.1609,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.25,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 178.176,
+          "enclosure_quality": 0.204,
+          "mean_enclosure": 2.1609,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.25,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 178.176,
+          "enclosure_quality": 0.204,
+          "mean_enclosure": 2.1609,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.25,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 178.176,
+          "enclosure_quality": 0.204,
+          "mean_enclosure": 2.1609,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.25,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 178.176,
+          "enclosure_quality": 0.204,
+          "mean_enclosure": 2.1609,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.25,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 178.176,
+          "enclosure_quality": 0.204,
+          "mean_enclosure": 2.1609,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.25,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 178.176,
+          "enclosure_quality": 0.204,
+          "mean_enclosure": 2.1609,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.25,
+          "face_burial": 0.0
+        }
+      ],
+      "n_decoys_scored": 128,
+      "n_decoys_kept": 15,
+      "seconds": 10.8,
+      "decoys_matching_or_beating_native": {
+        "volume": 0,
+        "enclosure_quality": 0,
+        "composite_fraction": 0,
+        "mean_enclosure": 0,
+        "ligand_recovery": 0,
+        "face_burial": 0
+      }
+    },
+    {
+      "entry": "8BU5",
+      "ligand": "RMF",
+      "buried_fraction": 0.7862,
+      "directionality": 0.85,
+      "native": {
+        "volume": 613.888,
+        "enclosure_quality": 0.7131,
+        "mean_enclosure": 2.7039,
+        "composite_fraction": 0.2503,
+        "ligand_recovery": 1.0,
+        "face_burial": 0.821
+      },
+      "decoys": [
+        {
+          "volume": 701.952,
+          "enclosure_quality": 0.3662,
+          "mean_enclosure": 2.2925,
+          "composite_fraction": 0.1054,
+          "ligand_recovery": 0.9412,
+          "face_burial": 0.383
+        },
+        {
+          "volume": 403.968,
+          "enclosure_quality": 0.3688,
+          "mean_enclosure": 2.3473,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.8235,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 403.968,
+          "enclosure_quality": 0.3688,
+          "mean_enclosure": 2.3473,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.8235,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 403.968,
+          "enclosure_quality": 0.3688,
+          "mean_enclosure": 2.3473,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.8235,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 403.968,
+          "enclosure_quality": 0.3688,
+          "mean_enclosure": 2.3473,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.8235,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 403.968,
+          "enclosure_quality": 0.3688,
+          "mean_enclosure": 2.3473,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.8235,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 403.968,
+          "enclosure_quality": 0.3688,
+          "mean_enclosure": 2.3473,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.8235,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 403.968,
+          "enclosure_quality": 0.3688,
+          "mean_enclosure": 2.3473,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.8235,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 403.968,
+          "enclosure_quality": 0.3688,
+          "mean_enclosure": 2.3473,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.8235,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 403.968,
+          "enclosure_quality": 0.3688,
+          "mean_enclosure": 2.3473,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.8235,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 403.968,
+          "enclosure_quality": 0.3688,
+          "mean_enclosure": 2.3473,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.8235,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 403.968,
+          "enclosure_quality": 0.3688,
+          "mean_enclosure": 2.3473,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.8235,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 403.968,
+          "enclosure_quality": 0.3688,
+          "mean_enclosure": 2.3473,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.8235,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 403.968,
+          "enclosure_quality": 0.3688,
+          "mean_enclosure": 2.3473,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.8235,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 403.968,
+          "enclosure_quality": 0.3688,
+          "mean_enclosure": 2.3473,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.8235,
+          "face_burial": 0.0
+        }
+      ],
+      "n_decoys_scored": 120,
+      "n_decoys_kept": 15,
+      "seconds": 61.4,
+      "decoys_matching_or_beating_native": {
+        "volume": 1,
+        "enclosure_quality": 0,
+        "composite_fraction": 0,
+        "mean_enclosure": 0,
+        "ligand_recovery": 0,
+        "face_burial": 0
+      }
+    },
+    {
+      "entry": "8BU7",
+      "ligand": "RS5",
+      "buried_fraction": 0.7185,
+      "directionality": 0.639,
+      "native": {
+        "volume": 804.864,
+        "enclosure_quality": 0.5439,
+        "mean_enclosure": 2.5127,
+        "composite_fraction": 0.2005,
+        "ligand_recovery": 1.0,
+        "face_burial": 0.677
+      },
+      "decoys": [
+        {
+          "volume": 414.72,
+          "enclosure_quality": 0.0765,
+          "mean_enclosure": 1.9988,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.875,
+          "face_burial": 0.1449
+        },
+        {
+          "volume": 415.744,
+          "enclosure_quality": 0.0764,
+          "mean_enclosure": 2.0012,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.875,
+          "face_burial": 0.1183
+        },
+        {
+          "volume": 414.72,
+          "enclosure_quality": 0.0765,
+          "mean_enclosure": 1.9963,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.875,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 414.72,
+          "enclosure_quality": 0.0765,
+          "mean_enclosure": 1.9963,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.875,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 414.72,
+          "enclosure_quality": 0.0765,
+          "mean_enclosure": 1.9963,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.875,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 414.72,
+          "enclosure_quality": 0.0765,
+          "mean_enclosure": 1.9963,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.875,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 414.72,
+          "enclosure_quality": 0.0765,
+          "mean_enclosure": 1.9963,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.875,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 414.72,
+          "enclosure_quality": 0.0765,
+          "mean_enclosure": 1.9963,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.875,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 414.72,
+          "enclosure_quality": 0.0765,
+          "mean_enclosure": 1.9963,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.875,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 414.72,
+          "enclosure_quality": 0.0765,
+          "mean_enclosure": 1.9963,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.875,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 414.72,
+          "enclosure_quality": 0.0765,
+          "mean_enclosure": 1.9963,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.875,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 414.72,
+          "enclosure_quality": 0.0765,
+          "mean_enclosure": 1.9963,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.875,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 414.72,
+          "enclosure_quality": 0.0765,
+          "mean_enclosure": 1.9963,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.875,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 414.72,
+          "enclosure_quality": 0.0765,
+          "mean_enclosure": 1.9963,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.875,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 414.72,
+          "enclosure_quality": 0.0765,
+          "mean_enclosure": 1.9963,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.875,
+          "face_burial": 0.0
+        }
+      ],
+      "n_decoys_scored": 117,
+      "n_decoys_kept": 15,
+      "seconds": 59.2,
+      "decoys_matching_or_beating_native": {
+        "volume": 0,
+        "enclosure_quality": 0,
+        "composite_fraction": 0,
+        "mean_enclosure": 0,
+        "ligand_recovery": 0,
+        "face_burial": 0
+      }
+    },
+    {
+      "entry": "8BU9",
+      "ligand": "RRC",
+      "buried_fraction": 0.7945,
+      "directionality": 0.629,
+      "native": {
+        "volume": 843.776,
+        "enclosure_quality": 0.5328,
+        "mean_enclosure": 2.4879,
+        "composite_fraction": 0.2415,
+        "ligand_recovery": 1.0,
+        "face_burial": 0.3418
+      },
+      "decoys": [
+        {
+          "volume": 952.32,
+          "enclosure_quality": 0.3371,
+          "mean_enclosure": 2.2726,
+          "composite_fraction": 0.1317,
+          "ligand_recovery": 1.0,
+          "face_burial": 0.1216
+        },
+        {
+          "volume": 509.952,
+          "enclosure_quality": 0.3785,
+          "mean_enclosure": 2.3584,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 1.0,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 509.952,
+          "enclosure_quality": 0.3785,
+          "mean_enclosure": 2.3584,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 1.0,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 509.952,
+          "enclosure_quality": 0.3785,
+          "mean_enclosure": 2.3584,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 1.0,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 509.952,
+          "enclosure_quality": 0.3785,
+          "mean_enclosure": 2.3584,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 1.0,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 509.952,
+          "enclosure_quality": 0.3785,
+          "mean_enclosure": 2.3584,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 1.0,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 509.952,
+          "enclosure_quality": 0.3785,
+          "mean_enclosure": 2.3584,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 1.0,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 509.952,
+          "enclosure_quality": 0.3785,
+          "mean_enclosure": 2.3584,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 1.0,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 509.952,
+          "enclosure_quality": 0.3785,
+          "mean_enclosure": 2.3584,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 1.0,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 509.952,
+          "enclosure_quality": 0.3785,
+          "mean_enclosure": 2.3584,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 1.0,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 509.952,
+          "enclosure_quality": 0.3785,
+          "mean_enclosure": 2.3584,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 1.0,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 509.952,
+          "enclosure_quality": 0.3785,
+          "mean_enclosure": 2.3584,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 1.0,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 509.952,
+          "enclosure_quality": 0.3785,
+          "mean_enclosure": 2.3584,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 1.0,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 509.952,
+          "enclosure_quality": 0.3785,
+          "mean_enclosure": 2.3584,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 1.0,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 509.952,
+          "enclosure_quality": 0.3785,
+          "mean_enclosure": 2.3584,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 1.0,
+          "face_burial": 0.0
+        }
+      ],
+      "n_decoys_scored": 117,
+      "n_decoys_kept": 15,
+      "seconds": 64.7,
+      "decoys_matching_or_beating_native": {
+        "volume": 1,
+        "enclosure_quality": 0,
+        "composite_fraction": 0,
+        "mean_enclosure": 0,
+        "ligand_recovery": 15,
+        "face_burial": 0
+      }
+    },
+    {
+      "entry": "8BUA",
+      "ligand": "RVH",
+      "buried_fraction": 0.6951,
+      "directionality": 0.713,
+      "native": {
+        "volume": 1107.456,
+        "enclosure_quality": 0.2386,
+        "mean_enclosure": 2.1715,
+        "composite_fraction": 0.2828,
+        "ligand_recovery": 1.0,
+        "face_burial": 0.665
+      },
+      "decoys": [
+        {
+          "volume": 694.272,
+          "enclosure_quality": 0.208,
+          "mean_enclosure": 2.146,
+          "composite_fraction": 0.1517,
+          "ligand_recovery": 0.5417,
+          "face_burial": 0.1901
+        },
+        {
+          "volume": 561.152,
+          "enclosure_quality": 0.1058,
+          "mean_enclosure": 1.9617,
+          "composite_fraction": 0.0958,
+          "ligand_recovery": 0.5417,
+          "face_burial": 0.0554
+        },
+        {
+          "volume": 232.448,
+          "enclosure_quality": 0.0925,
+          "mean_enclosure": 1.9537,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.5417,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 232.448,
+          "enclosure_quality": 0.0925,
+          "mean_enclosure": 1.9537,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.5417,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 232.448,
+          "enclosure_quality": 0.0925,
+          "mean_enclosure": 1.9537,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.5417,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 232.448,
+          "enclosure_quality": 0.0925,
+          "mean_enclosure": 1.9537,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.5417,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 232.448,
+          "enclosure_quality": 0.0925,
+          "mean_enclosure": 1.9537,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.5417,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 232.448,
+          "enclosure_quality": 0.0925,
+          "mean_enclosure": 1.9537,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.5417,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 232.448,
+          "enclosure_quality": 0.0925,
+          "mean_enclosure": 1.9537,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.5417,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 232.448,
+          "enclosure_quality": 0.0925,
+          "mean_enclosure": 1.9537,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.5417,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 232.448,
+          "enclosure_quality": 0.0925,
+          "mean_enclosure": 1.9537,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.5417,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 313.856,
+          "enclosure_quality": 0.2007,
+          "mean_enclosure": 2.0946,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.7083,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 232.448,
+          "enclosure_quality": 0.0925,
+          "mean_enclosure": 1.9537,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.5417,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 232.448,
+          "enclosure_quality": 0.0925,
+          "mean_enclosure": 1.9537,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.5417,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 232.448,
+          "enclosure_quality": 0.0925,
+          "mean_enclosure": 1.9537,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.5417,
+          "face_burial": 0.0
+        }
+      ],
+      "n_decoys_scored": 106,
+      "n_decoys_kept": 15,
+      "seconds": 54.0,
+      "decoys_matching_or_beating_native": {
+        "volume": 0,
+        "enclosure_quality": 0,
+        "composite_fraction": 0,
+        "mean_enclosure": 0,
+        "ligand_recovery": 0,
+        "face_burial": 0
+      }
+    },
+    {
+      "entry": "8BUJ",
+      "ligand": "RUW",
+      "buried_fraction": 0.7601,
+      "directionality": 0.707,
+      "native": {
+        "volume": 798.72,
+        "enclosure_quality": 0.575,
+        "mean_enclosure": 2.5436,
+        "composite_fraction": 0.2543,
+        "ligand_recovery": 1.0,
+        "face_burial": 0.76
+      },
+      "decoys": [
+        {
+          "volume": 695.808,
+          "enclosure_quality": 0.5335,
+          "mean_enclosure": 2.5048,
+          "composite_fraction": 0.1241,
+          "ligand_recovery": 0.8889,
+          "face_burial": 0.4011
+        },
+        {
+          "volume": 742.912,
+          "enclosure_quality": 0.4004,
+          "mean_enclosure": 2.3625,
+          "composite_fraction": 0.1193,
+          "ligand_recovery": 0.8889,
+          "face_burial": 0.3631
+        },
+        {
+          "volume": 498.688,
+          "enclosure_quality": 0.5821,
+          "mean_enclosure": 2.5626,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.8889,
+          "face_burial": 0.038
+        },
+        {
+          "volume": 467.456,
+          "enclosure_quality": 0.4381,
+          "mean_enclosure": 2.4151,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.8519,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 467.456,
+          "enclosure_quality": 0.4381,
+          "mean_enclosure": 2.4151,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.8519,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 467.456,
+          "enclosure_quality": 0.4381,
+          "mean_enclosure": 2.4151,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.8519,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 467.456,
+          "enclosure_quality": 0.4381,
+          "mean_enclosure": 2.4151,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.8519,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 467.456,
+          "enclosure_quality": 0.4381,
+          "mean_enclosure": 2.4151,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.8519,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 467.456,
+          "enclosure_quality": 0.4381,
+          "mean_enclosure": 2.4151,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.8519,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 467.456,
+          "enclosure_quality": 0.4381,
+          "mean_enclosure": 2.4151,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.8519,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 467.456,
+          "enclosure_quality": 0.4381,
+          "mean_enclosure": 2.4151,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.8519,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 467.456,
+          "enclosure_quality": 0.4381,
+          "mean_enclosure": 2.4151,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.8519,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 467.456,
+          "enclosure_quality": 0.4381,
+          "mean_enclosure": 2.4151,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.8519,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 467.456,
+          "enclosure_quality": 0.4381,
+          "mean_enclosure": 2.4151,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.8519,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 467.456,
+          "enclosure_quality": 0.4381,
+          "mean_enclosure": 2.4151,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.8519,
+          "face_burial": 0.0
+        }
+      ],
+      "n_decoys_scored": 115,
+      "n_decoys_kept": 15,
+      "seconds": 64.7,
+      "decoys_matching_or_beating_native": {
+        "volume": 0,
+        "enclosure_quality": 1,
+        "composite_fraction": 0,
+        "mean_enclosure": 1,
+        "ligand_recovery": 0,
+        "face_burial": 0
+      }
+    },
+    {
+      "entry": "8BUK",
+      "ligand": "RWE",
+      "buried_fraction": 0.7456,
+      "directionality": 0.596,
+      "native": {
+        "volume": 716.288,
+        "enclosure_quality": 0.6212,
+        "mean_enclosure": 2.5826,
+        "composite_fraction": 0.2195,
+        "ligand_recovery": 1.0,
+        "face_burial": 0.6483
+      },
+      "decoys": [
+        {
+          "volume": 585.216,
+          "enclosure_quality": 0.1496,
+          "mean_enclosure": 2.0927,
+          "composite_fraction": 0.0405,
+          "ligand_recovery": 0.9333,
+          "face_burial": 0.08
+        },
+        {
+          "volume": 641.024,
+          "enclosure_quality": 0.1885,
+          "mean_enclosure": 2.1414,
+          "composite_fraction": 0.0472,
+          "ligand_recovery": 1.0,
+          "face_burial": 0.072
+        },
+        {
+          "volume": 504.32,
+          "enclosure_quality": 0.1513,
+          "mean_enclosure": 2.1107,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.9333,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 504.32,
+          "enclosure_quality": 0.1513,
+          "mean_enclosure": 2.1107,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.9333,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 504.32,
+          "enclosure_quality": 0.1513,
+          "mean_enclosure": 2.1107,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.9333,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 504.32,
+          "enclosure_quality": 0.1513,
+          "mean_enclosure": 2.1107,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.9333,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 504.32,
+          "enclosure_quality": 0.1513,
+          "mean_enclosure": 2.1107,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.9333,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 504.32,
+          "enclosure_quality": 0.1513,
+          "mean_enclosure": 2.1107,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.9333,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 504.32,
+          "enclosure_quality": 0.1513,
+          "mean_enclosure": 2.1107,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.9333,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 504.32,
+          "enclosure_quality": 0.1513,
+          "mean_enclosure": 2.1107,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.9333,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 504.32,
+          "enclosure_quality": 0.1513,
+          "mean_enclosure": 2.1107,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.9333,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 504.32,
+          "enclosure_quality": 0.1513,
+          "mean_enclosure": 2.1107,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.9333,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 504.32,
+          "enclosure_quality": 0.1513,
+          "mean_enclosure": 2.1107,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.9333,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 504.32,
+          "enclosure_quality": 0.1513,
+          "mean_enclosure": 2.1107,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.9333,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 504.32,
+          "enclosure_quality": 0.1513,
+          "mean_enclosure": 2.1107,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.9333,
+          "face_burial": 0.0
+        }
+      ],
+      "n_decoys_scored": 128,
+      "n_decoys_kept": 15,
+      "seconds": 67.7,
+      "decoys_matching_or_beating_native": {
+        "volume": 0,
+        "enclosure_quality": 0,
+        "composite_fraction": 0,
+        "mean_enclosure": 0,
+        "ligand_recovery": 1,
+        "face_burial": 0
+      }
+    },
+    {
+      "entry": "8BUL",
+      "ligand": "RSU",
+      "buried_fraction": 0.7329,
+      "directionality": 0.619,
+      "native": {
+        "volume": 763.904,
+        "enclosure_quality": 0.5885,
+        "mean_enclosure": 2.557,
+        "composite_fraction": 0.2318,
+        "ligand_recovery": 1.0,
+        "face_burial": 0.6651
+      },
+      "decoys": [
+        {
+          "volume": 675.328,
+          "enclosure_quality": 0.5436,
+          "mean_enclosure": 2.5231,
+          "composite_fraction": 0.141,
+          "ligand_recovery": 0.9286,
+          "face_burial": 0.4634
+        },
+        {
+          "volume": 820.224,
+          "enclosure_quality": 0.4051,
+          "mean_enclosure": 2.3315,
+          "composite_fraction": 0.1496,
+          "ligand_recovery": 0.9643,
+          "face_burial": 0.4219
+        },
+        {
+          "volume": 1118.72,
+          "enclosure_quality": 0.3277,
+          "mean_enclosure": 2.2279,
+          "composite_fraction": 0.1831,
+          "ligand_recovery": 1.0,
+          "face_burial": 0.3089
+        },
+        {
+          "volume": 495.104,
+          "enclosure_quality": 0.4871,
+          "mean_enclosure": 2.4488,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.8214,
+          "face_burial": 0.0829
+        },
+        {
+          "volume": 546.304,
+          "enclosure_quality": 0.538,
+          "mean_enclosure": 2.4649,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.8929,
+          "face_burial": 0.0151
+        },
+        {
+          "volume": 457.216,
+          "enclosure_quality": 0.4401,
+          "mean_enclosure": 2.4244,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.7857,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 457.216,
+          "enclosure_quality": 0.4401,
+          "mean_enclosure": 2.4244,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.7857,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 457.216,
+          "enclosure_quality": 0.4401,
+          "mean_enclosure": 2.4244,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.7857,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 457.216,
+          "enclosure_quality": 0.4401,
+          "mean_enclosure": 2.4244,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.7857,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 457.216,
+          "enclosure_quality": 0.4401,
+          "mean_enclosure": 2.4244,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.7857,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 457.216,
+          "enclosure_quality": 0.4401,
+          "mean_enclosure": 2.4244,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.7857,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 457.216,
+          "enclosure_quality": 0.4401,
+          "mean_enclosure": 2.4244,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.7857,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 457.216,
+          "enclosure_quality": 0.4401,
+          "mean_enclosure": 2.4244,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.7857,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 457.216,
+          "enclosure_quality": 0.4401,
+          "mean_enclosure": 2.4244,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.7857,
+          "face_burial": 0.0
+        },
+        {
+          "volume": 457.216,
+          "enclosure_quality": 0.4401,
+          "mean_enclosure": 2.4244,
+          "composite_fraction": 0.0,
+          "ligand_recovery": 0.7857,
+          "face_burial": 0.0
+        }
+      ],
+      "n_decoys_scored": 114,
+      "n_decoys_kept": 15,
+      "seconds": 64.4,
+      "decoys_matching_or_beating_native": {
+        "volume": 2,
+        "enclosure_quality": 0,
+        "composite_fraction": 0,
+        "mean_enclosure": 0,
+        "ligand_recovery": 1,
+        "face_burial": 0
+      }
+    }
+  ]
+}
